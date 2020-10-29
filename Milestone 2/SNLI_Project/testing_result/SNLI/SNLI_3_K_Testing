@@ -1,0 +1,30 @@
+WARNING:tensorflow:From C:\Users\giait\Anaconda3\envs\SNLI_Temp\lib\site-packages\tensorflow_core\python\compat\v2_compat.py:88: disable_resource_var
+iables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+Loading model: model/SNLI_3_K
+2020-04-10 12:11:08.260984: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not c
+ompiled to use: AVX AVX2
+Loading vocabulary: vocab.txt
+Wrong format:  ||| ||| 1098722
+
+Loading test data: test.txt
+Predicting on test.txt .....
+Accuracy: 76.16%
+
+Precision, Recall and F1-score...
+              precision    recall  f1-score   support
+
+           0       0.75      0.83      0.79      3368
+           1       0.74      0.68      0.71      3219
+           2       0.80      0.76      0.78      3237
+
+    accuracy                           0.76      9824
+   macro avg       0.76      0.76      0.76      9824
+weighted avg       0.76      0.76      0.76      9824
+
+Confusion Matrix...
+[[2808  355  205]
+ [ 593 2203  423]
+ [ 356  410 2471]]
+Time usage: 0:00:12

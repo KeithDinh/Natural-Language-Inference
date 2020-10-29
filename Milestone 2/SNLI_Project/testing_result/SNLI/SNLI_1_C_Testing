@@ -1,0 +1,34 @@
+WARNING:tensorflow:From C:\Users\giait\Anaconda3\envs\SNLI_Temp\lib\site-packages\tensorflow_core\python\compat\v2_compat.py:88: disable_resource_var
+iables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+Loading model: model/SNLI_1_C
+2020-04-10 12:05:39.545104: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not c
+ompiled to use: AVX AVX2
+2020-04-10 12:05:41.120098: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 67465200 exceeds 10% of system memory.
+Loading vocabulary: vocab.txt
+Wrong format:  ||| ||| 1098722
+
+Loading test data: test.txt
+Predicting on test.txt .....
+Accuracy: 34.28%
+
+Precision, Recall and F1-score...
+C:\Users\giait\AppData\Roaming\Python\Python37\site-packages\sklearn\metrics\_classification.py:1268: UndefinedMetricWarning: Precision and F-score a
+re ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+           0       0.34      1.00      0.51      3368
+           1       0.00      0.00      0.00      3219
+           2       0.00      0.00      0.00      3237
+
+    accuracy                           0.34      9824
+   macro avg       0.11      0.33      0.17      9824
+weighted avg       0.12      0.34      0.18      9824
+
+Confusion Matrix...
+[[3368    0    0]
+ [3219    0    0]
+ [3237    0    0]]
+Time usage: 0:00:12

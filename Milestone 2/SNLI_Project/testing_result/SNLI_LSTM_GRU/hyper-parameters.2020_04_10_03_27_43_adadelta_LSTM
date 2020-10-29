@@ -1,0 +1,25 @@
+CMD: python3 SNLI_LSTM_GRU.py 
+
+Training with following options:
+------------- HYPER PARAMETERS -------------
+GloVe_weights: GloVe_weights
+L2: 4e-06
+activation_funciton: relu
+batch_size: 512
+dropout: 0.2
+embedding_hidden_layer_size: 300
+labels: {'contradiction': 0, 'neutral': 1, 'entailment': 2}
+log: log/SNLI_LSTM_GRU/hyper-parameters.2020_04_10_03_27_43
+max_length: 42
+num_of_epochs: 25
+num_of_line: None
+optimizer: adadelta
+patience: 4
+pretrained_GloVe_model: True
+rnn: <class 'keras.layers.recurrent.LSTM'>
+sent_hidden_layer_size: 300
+train_embedding: False
+vocab_size: 49861
+-----------------------------------------
+Test loss / test accuracy = 0.4976 / 0.8033
+Time usage: 1 day, 0:17:15

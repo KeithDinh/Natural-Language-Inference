@@ -1,0 +1,1520 @@
+CMD: python3 C:/Users/ZYLON/PycharmProjects/SNLI_Temp/SNLI_Group_Project.py
+Training with following options:
+------------- HYPER PARAMETERS -------------
+L2: 0.001
+batch_size: 200
+clip_value: 5.0
+drop_out: 0.8
+learning_rate: 0.05
+log: log/log.2020_04_02_21_12_40
+max_length_sen1: 100
+max_length_sen2: 100
+num_class: 3
+num_epoch: 200
+optimizer: adagrad
+vocab_size: 56221
+-----------------------------------------
+Loading training and validation data...
+Time usage: 0:00:15
+Configuring TensorBoard and Saver...
+Total parameters: 382003
+Training and evaluating...
+Epoch: 1
+Epoch:  1, Batch:       0, Train Batch Loss:    5.7, Train Batch Acc:  28.00%, Val Loss: 1.3e+01, Val Acc:  32.87%, Time: 0:00:32 *
+Epoch:  1, Batch:     500, Train Batch Loss:    2.6, Train Batch Acc:  50.50%, Val Loss:    2.6, Val Acc:  52.95%, Time: 0:10:56 *
+Epoch:  1, Batch:    1000, Train Batch Loss:    2.3, Train Batch Acc:  55.00%, Val Loss:    2.3, Val Acc:  57.76%, Time: 0:21:13 *
+Epoch:  1, Batch:    1500, Train Batch Loss:    2.1, Train Batch Acc:  57.00%, Val Loss:    2.1, Val Acc:  58.92%, Time: 0:31:30 *
+Epoch:  1, Batch:    2000, Train Batch Loss:    1.9, Train Batch Acc:  60.00%, Val Loss:    1.9, Val Acc:  60.70%, Time: 0:41:48 *
+Epoch:  1, Batch:    2500, Train Batch Loss:    1.8, Train Batch Acc:  61.00%, Val Loss:    1.7, Val Acc:  60.77%, Time: 0:52:06 *
+*** Epoch:  1, Train Loss:    2.2, Train Acc:  54.69%, Time: 0:56:54
+Epoch: 2
+Epoch:  2, Batch:    3000, Train Batch Loss:    1.6, Train Batch Acc:  62.50%, Val Loss:    1.6, Val Acc:  62.43%, Time: 1:02:23 *
+Epoch:  2, Batch:    3500, Train Batch Loss:    1.5, Train Batch Acc:  62.00%, Val Loss:    1.5, Val Acc:  62.62%, Time: 1:12:42 *
+Epoch:  2, Batch:    4000, Train Batch Loss:    1.4, Train Batch Acc:  62.00%, Val Loss:    1.4, Val Acc:  64.08%, Time: 1:22:59 *
+Epoch:  2, Batch:    4500, Train Batch Loss:    1.3, Train Batch Acc:  68.00%, Val Loss:    1.3, Val Acc:  64.95%, Time: 1:33:17 *
+Epoch:  2, Batch:    5000, Train Batch Loss:    1.2, Train Batch Acc:  66.00%, Val Loss:    1.2, Val Acc:  64.53%, Time: 1:43:32 
+*** Epoch:  2, Train Loss:    1.4, Train Acc:  62.12%, Time: 1:53:11
+Epoch: 3
+Epoch:  3, Batch:    5500, Train Batch Loss:    1.2, Train Batch Acc:  60.50%, Val Loss:    1.2, Val Acc:  65.30%, Time: 1:53:50 *
+Epoch:  3, Batch:    6000, Train Batch Loss:    1.1, Train Batch Acc:  66.50%, Val Loss:    1.1, Val Acc:  65.53%, Time: 2:04:08 *
+Epoch:  3, Batch:    6500, Train Batch Loss:    1.1, Train Batch Acc:  64.00%, Val Loss:    1.1, Val Acc:  65.82%, Time: 2:14:26 *
+Epoch:  3, Batch:    7000, Train Batch Loss:    1.1, Train Batch Acc:  65.50%, Val Loss:    1.0, Val Acc:  66.18%, Time: 2:24:44 *
+Epoch:  3, Batch:    7500, Train Batch Loss:    1.1, Train Batch Acc:  62.50%, Val Loss:    1.0, Val Acc:  66.00%, Time: 2:35:01 
+Epoch:  3, Batch:    8000, Train Batch Loss:    1.0, Train Batch Acc:  62.00%, Val Loss:   0.97, Val Acc:  66.17%, Time: 2:45:17 
+*** Epoch:  3, Train Loss:    1.1, Train Acc:  64.48%, Time: 2:49:59
+Epoch: 4
+Epoch:  4, Batch:    8500, Train Batch Loss:   0.93, Train Batch Acc:  68.50%, Val Loss:   0.94, Val Acc:  66.70%, Time: 2:55:35 *
+Epoch:  4, Batch:    9000, Train Batch Loss:   0.94, Train Batch Acc:  64.50%, Val Loss:   0.92, Val Acc:  67.08%, Time: 3:05:54 *
+Epoch:  4, Batch:    9500, Train Batch Loss:   0.99, Train Batch Acc:  64.00%, Val Loss:    0.9, Val Acc:  67.76%, Time: 3:16:11 *
+Epoch:  4, Batch:   10000, Train Batch Loss:   0.99, Train Batch Acc:  62.00%, Val Loss:   0.89, Val Acc:  66.89%, Time: 3:26:28 
+Epoch:  4, Batch:   10500, Train Batch Loss:   0.96, Train Batch Acc:  62.50%, Val Loss:   0.87, Val Acc:  67.65%, Time: 3:36:44 
+*** Epoch:  4, Train Loss:   0.93, Train Acc:  65.72%, Time: 3:46:17
+Epoch: 5
+Epoch:  5, Batch:   11000, Train Batch Loss:   0.88, Train Batch Acc:  68.00%, Val Loss:   0.85, Val Acc:  68.19%, Time: 3:47:02 *
+Epoch:  5, Batch:   11500, Train Batch Loss:    0.9, Train Batch Acc:  67.50%, Val Loss:   0.85, Val Acc:  67.91%, Time: 3:57:18 
+Epoch:  5, Batch:   12000, Train Batch Loss:   0.81, Train Batch Acc:  74.50%, Val Loss:   0.83, Val Acc:  68.71%, Time: 4:07:36 *
+Epoch:  5, Batch:   12500, Train Batch Loss:   0.84, Train Batch Acc:  70.00%, Val Loss:   0.82, Val Acc:  68.83%, Time: 4:17:53 *
+Epoch:  5, Batch:   13000, Train Batch Loss:   0.85, Train Batch Acc:  68.00%, Val Loss:   0.82, Val Acc:  69.01%, Time: 4:28:12 *
+Epoch:  5, Batch:   13500, Train Batch Loss:    0.8, Train Batch Acc:  67.50%, Val Loss:   0.82, Val Acc:  68.85%, Time: 4:38:28 
+*** Epoch:  5, Train Loss:   0.87, Train Acc:  66.76%, Time: 4:43:03
+Epoch: 6
+Epoch:  6, Batch:   14000, Train Batch Loss:   0.78, Train Batch Acc:  68.50%, Val Loss:    0.8, Val Acc:  69.13%, Time: 4:48:46 *
+Epoch:  6, Batch:   14500, Train Batch Loss:   0.86, Train Batch Acc:  67.00%, Val Loss:   0.81, Val Acc:  68.45%, Time: 4:59:03 
+Epoch:  6, Batch:   15000, Train Batch Loss:   0.75, Train Batch Acc:  71.00%, Val Loss:    0.8, Val Acc:  68.98%, Time: 5:09:20 
+Epoch:  6, Batch:   15500, Train Batch Loss:   0.91, Train Batch Acc:  62.00%, Val Loss:   0.79, Val Acc:  69.83%, Time: 5:19:38 *
+Epoch:  6, Batch:   16000, Train Batch Loss:    0.9, Train Batch Acc:  65.00%, Val Loss:   0.79, Val Acc:  69.58%, Time: 5:29:54 
+*** Epoch:  6, Train Loss:   0.83, Train Acc:  67.56%, Time: 5:39:20
+Epoch: 7
+Epoch:  7, Batch:   16500, Train Batch Loss:   0.79, Train Batch Acc:  71.50%, Val Loss:   0.79, Val Acc:  69.74%, Time: 5:40:11 
+Epoch:  7, Batch:   17000, Train Batch Loss:   0.75, Train Batch Acc:  71.00%, Val Loss:   0.78, Val Acc:  70.06%, Time: 5:50:29 *
+Epoch:  7, Batch:   17500, Train Batch Loss:   0.86, Train Batch Acc:  63.00%, Val Loss:   0.78, Val Acc:  69.97%, Time: 6:00:45 
+Epoch:  7, Batch:   18000, Train Batch Loss:   0.86, Train Batch Acc:  64.50%, Val Loss:    0.8, Val Acc:  68.95%, Time: 6:11:02 
+Epoch:  7, Batch:   18500, Train Batch Loss:   0.88, Train Batch Acc:  67.00%, Val Loss:   0.81, Val Acc:  69.05%, Time: 6:21:18 
+Epoch:  7, Batch:   19000, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:   0.77, Val Acc:  70.51%, Time: 6:31:36 *
+*** Epoch:  7, Train Loss:   0.81, Train Acc:  68.31%, Time: 6:36:04
+Epoch: 8
+Epoch:  8, Batch:   19500, Train Batch Loss:   0.79, Train Batch Acc:  71.00%, Val Loss:   0.76, Val Acc:  71.12%, Time: 6:41:55 *
+Epoch:  8, Batch:   20000, Train Batch Loss:   0.83, Train Batch Acc:  67.00%, Val Loss:   0.76, Val Acc:  71.23%, Time: 6:52:13 *
+Epoch:  8, Batch:   20500, Train Batch Loss:   0.86, Train Batch Acc:  66.50%, Val Loss:   0.76, Val Acc:  71.55%, Time: 7:02:30 *
+Epoch:  8, Batch:   21000, Train Batch Loss:   0.83, Train Batch Acc:  69.00%, Val Loss:   0.76, Val Acc:  70.98%, Time: 7:13:59 
+Epoch:  8, Batch:   21500, Train Batch Loss:   0.73, Train Batch Acc:  70.50%, Val Loss:   0.76, Val Acc:  71.27%, Time: 7:26:37 
+*** Epoch:  8, Train Loss:    0.8, Train Acc:  68.89%, Time: 7:38:13
+Epoch: 9
+Epoch:  9, Batch:   22000, Train Batch Loss:   0.79, Train Batch Acc:  69.50%, Val Loss:   0.76, Val Acc:  70.85%, Time: 7:39:26 
+Epoch:  9, Batch:   22500, Train Batch Loss:   0.81, Train Batch Acc:  68.50%, Val Loss:   0.75, Val Acc:  71.78%, Time: 7:51:56 *
+Epoch:  9, Batch:   23000, Train Batch Loss:   0.84, Train Batch Acc:  64.50%, Val Loss:   0.75, Val Acc:  71.54%, Time: 8:02:58 
+Epoch:  9, Batch:   23500, Train Batch Loss:   0.89, Train Batch Acc:  62.50%, Val Loss:   0.75, Val Acc:  72.02%, Time: 8:13:18 *
+Epoch:  9, Batch:   24000, Train Batch Loss:   0.73, Train Batch Acc:  75.50%, Val Loss:   0.77, Val Acc:  70.68%, Time: 8:23:35 
+Epoch:  9, Batch:   24500, Train Batch Loss:   0.79, Train Batch Acc:  67.00%, Val Loss:   0.75, Val Acc:  71.63%, Time: 8:33:52 
+*** Epoch:  9, Train Loss:   0.79, Train Acc:  69.53%, Time: 8:38:13
+Epoch: 10
+Epoch: 10, Batch:   25000, Train Batch Loss:   0.82, Train Batch Acc:  68.50%, Val Loss:   0.74, Val Acc:  72.26%, Time: 8:44:11 *
+Epoch: 10, Batch:   25500, Train Batch Loss:   0.75, Train Batch Acc:  70.00%, Val Loss:   0.75, Val Acc:  71.43%, Time: 8:54:28 
+Epoch: 10, Batch:   26000, Train Batch Loss:   0.83, Train Batch Acc:  70.00%, Val Loss:   0.75, Val Acc:  71.41%, Time: 9:04:49 
+Epoch: 10, Batch:   26500, Train Batch Loss:   0.82, Train Batch Acc:  69.00%, Val Loss:   0.75, Val Acc:  71.53%, Time: 9:15:10 
+Epoch: 10, Batch:   27000, Train Batch Loss:   0.73, Train Batch Acc:  70.00%, Val Loss:   0.74, Val Acc:  72.23%, Time: 9:25:29 
+*** Epoch: 10, Train Loss:   0.79, Train Acc:  69.81%, Time: 9:35:04
+Epoch: 11
+Epoch: 11, Batch:   27500, Train Batch Loss:   0.79, Train Batch Acc:  66.50%, Val Loss:   0.75, Val Acc:  71.96%, Time: 9:36:10 
+Epoch: 11, Batch:   28000, Train Batch Loss:   0.82, Train Batch Acc:  70.00%, Val Loss:   0.75, Val Acc:  72.04%, Time: 9:47:05 
+Epoch: 11, Batch:   28500, Train Batch Loss:   0.76, Train Batch Acc:  68.50%, Val Loss:   0.76, Val Acc:  71.90%, Time: 9:58:28 
+Epoch: 11, Batch:   29000, Train Batch Loss:   0.67, Train Batch Acc:  77.00%, Val Loss:   0.73, Val Acc:  72.34%, Time: 10:10:22 *
+Epoch: 11, Batch:   29500, Train Batch Loss:    0.7, Train Batch Acc:  75.00%, Val Loss:   0.73, Val Acc:  73.00%, Time: 10:21:14 *
+Epoch: 11, Batch:   30000, Train Batch Loss:   0.81, Train Batch Acc:  67.00%, Val Loss:   0.75, Val Acc:  71.62%, Time: 10:31:42 
+*** Epoch: 11, Train Loss:   0.78, Train Acc:  70.14%, Time: 10:36:01
+Epoch: 12
+Epoch: 12, Batch:   30500, Train Batch Loss:   0.71, Train Batch Acc:  72.50%, Val Loss:   0.73, Val Acc:  72.45%, Time: 10:42:20 
+Epoch: 12, Batch:   31000, Train Batch Loss:    0.8, Train Batch Acc:  69.50%, Val Loss:   0.73, Val Acc:  72.88%, Time: 10:52:53 
+Epoch: 12, Batch:   31500, Train Batch Loss:   0.81, Train Batch Acc:  69.50%, Val Loss:   0.74, Val Acc:  72.38%, Time: 11:03:21 
+Epoch: 12, Batch:   32000, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.73, Val Acc:  72.86%, Time: 11:13:50 
+Epoch: 12, Batch:   32500, Train Batch Loss:   0.75, Train Batch Acc:  74.50%, Val Loss:   0.75, Val Acc:  71.35%, Time: 11:24:29 
+*** Epoch: 12, Train Loss:   0.78, Train Acc:  70.47%, Time: 11:33:55
+Epoch: 13
+Epoch: 13, Batch:   33000, Train Batch Loss:   0.78, Train Batch Acc:  71.50%, Val Loss:   0.73, Val Acc:  73.03%, Time: 11:35:12 *
+Epoch: 13, Batch:   33500, Train Batch Loss:   0.78, Train Batch Acc:  70.50%, Val Loss:   0.73, Val Acc:  73.02%, Time: 11:45:52 
+Epoch: 13, Batch:   34000, Train Batch Loss:   0.76, Train Batch Acc:  73.00%, Val Loss:   0.73, Val Acc:  72.88%, Time: 11:56:25 
+Epoch: 13, Batch:   34500, Train Batch Loss:   0.77, Train Batch Acc:  72.00%, Val Loss:   0.76, Val Acc:  72.12%, Time: 12:06:48 
+Epoch: 13, Batch:   35000, Train Batch Loss:    0.7, Train Batch Acc:  73.50%, Val Loss:   0.73, Val Acc:  73.01%, Time: 12:17:11 
+Epoch: 13, Batch:   35500, Train Batch Loss:   0.71, Train Batch Acc:  72.50%, Val Loss:   0.74, Val Acc:  72.98%, Time: 12:27:35 
+*** Epoch: 13, Train Loss:   0.78, Train Acc:  70.58%, Time: 12:31:49
+Epoch: 14
+Epoch: 14, Batch:   36000, Train Batch Loss:   0.81, Train Batch Acc:  68.00%, Val Loss:   0.73, Val Acc:  72.96%, Time: 12:38:04 
+Epoch: 14, Batch:   36500, Train Batch Loss:   0.86, Train Batch Acc:  68.00%, Val Loss:   0.73, Val Acc:  72.96%, Time: 12:48:24 
+Epoch: 14, Batch:   37000, Train Batch Loss:   0.74, Train Batch Acc:  71.50%, Val Loss:   0.73, Val Acc:  73.19%, Time: 12:58:49 *
+Epoch: 14, Batch:   37500, Train Batch Loss:   0.66, Train Batch Acc:  76.50%, Val Loss:   0.73, Val Acc:  72.82%, Time: 13:09:11 
+Epoch: 14, Batch:   38000, Train Batch Loss:   0.79, Train Batch Acc:  69.50%, Val Loss:   0.73, Val Acc:  73.02%, Time: 13:19:34 
+*** Epoch: 14, Train Loss:   0.77, Train Acc:  70.80%, Time: 13:28:37
+Epoch: 15
+Epoch: 15, Batch:   38500, Train Batch Loss:   0.73, Train Batch Acc:  73.50%, Val Loss:   0.72, Val Acc:  73.18%, Time: 13:29:57 
+Epoch: 15, Batch:   39000, Train Batch Loss:   0.84, Train Batch Acc:  67.50%, Val Loss:   0.72, Val Acc:  73.57%, Time: 13:40:20 *
+Epoch: 15, Batch:   39500, Train Batch Loss:   0.73, Train Batch Acc:  75.00%, Val Loss:   0.72, Val Acc:  73.64%, Time: 13:50:44 *
+Epoch: 15, Batch:   40000, Train Batch Loss:   0.74, Train Batch Acc:  71.00%, Val Loss:   0.73, Val Acc:  73.08%, Time: 14:01:07 
+Epoch: 15, Batch:   40500, Train Batch Loss:   0.75, Train Batch Acc:  71.50%, Val Loss:   0.73, Val Acc:  73.57%, Time: 14:11:27 
+Epoch: 15, Batch:   41000, Train Batch Loss:   0.77, Train Batch Acc:  72.50%, Val Loss:   0.72, Val Acc:  73.44%, Time: 14:21:46 
+*** Epoch: 15, Train Loss:   0.77, Train Acc:  70.97%, Time: 14:25:46
+Epoch: 16
+Epoch: 16, Batch:   41500, Train Batch Loss:   0.74, Train Batch Acc:  73.00%, Val Loss:   0.73, Val Acc:  73.24%, Time: 14:32:05 
+Epoch: 16, Batch:   42000, Train Batch Loss:   0.83, Train Batch Acc:  69.50%, Val Loss:   0.73, Val Acc:  73.34%, Time: 14:42:24 
+Epoch: 16, Batch:   42500, Train Batch Loss:   0.77, Train Batch Acc:  70.00%, Val Loss:   0.73, Val Acc:  73.58%, Time: 14:52:43 
+Epoch: 16, Batch:   43000, Train Batch Loss:   0.75, Train Batch Acc:  74.50%, Val Loss:   0.73, Val Acc:  73.16%, Time: 15:03:02 
+Epoch: 16, Batch:   43500, Train Batch Loss:   0.86, Train Batch Acc:  65.00%, Val Loss:   0.73, Val Acc:  73.23%, Time: 15:13:21 
+*** Epoch: 16, Train Loss:   0.77, Train Acc:  71.09%, Time: 15:22:12
+Epoch: 17
+Epoch: 17, Batch:   44000, Train Batch Loss:   0.75, Train Batch Acc:  71.50%, Val Loss:   0.72, Val Acc:  73.92%, Time: 15:23:41 *
+Epoch: 17, Batch:   44500, Train Batch Loss:    0.8, Train Batch Acc:  67.50%, Val Loss:   0.72, Val Acc:  73.64%, Time: 15:33:59 
+Epoch: 17, Batch:   45000, Train Batch Loss:   0.75, Train Batch Acc:  70.00%, Val Loss:   0.73, Val Acc:  72.73%, Time: 15:44:18 
+Epoch: 17, Batch:   45500, Train Batch Loss:   0.73, Train Batch Acc:  72.00%, Val Loss:   0.74, Val Acc:  72.56%, Time: 15:55:25 
+Epoch: 17, Batch:   46000, Train Batch Loss:    0.8, Train Batch Acc:  68.50%, Val Loss:   0.72, Val Acc:  73.81%, Time: 16:08:04 
+Epoch: 17, Batch:   46500, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.72, Val Acc:  73.44%, Time: 16:20:31 
+*** Epoch: 17, Train Loss:   0.77, Train Acc:  71.14%, Time: 16:24:26
+Epoch: 18
+Epoch: 18, Batch:   47000, Train Batch Loss:   0.72, Train Batch Acc:  72.00%, Val Loss:   0.76, Val Acc:  71.49%, Time: 16:30:51 
+Epoch: 18, Batch:   47500, Train Batch Loss:   0.73, Train Batch Acc:  74.50%, Val Loss:   0.72, Val Acc:  73.49%, Time: 16:41:27 
+Epoch: 18, Batch:   48000, Train Batch Loss:   0.76, Train Batch Acc:  73.00%, Val Loss:   0.72, Val Acc:  73.61%, Time: 16:51:51 
+Epoch: 18, Batch:   48500, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.72, Val Acc:  73.52%, Time: 17:02:10 
+Epoch: 18, Batch:   49000, Train Batch Loss:   0.79, Train Batch Acc:  70.50%, Val Loss:   0.72, Val Acc:  74.00%, Time: 17:12:32 *
+*** Epoch: 18, Train Loss:   0.77, Train Acc:  71.39%, Time: 17:21:17
+Epoch: 19
+Epoch: 19, Batch:   49500, Train Batch Loss:    0.7, Train Batch Acc:  75.50%, Val Loss:   0.72, Val Acc:  73.03%, Time: 17:22:52 
+Epoch: 19, Batch:   50000, Train Batch Loss:   0.68, Train Batch Acc:  75.00%, Val Loss:   0.73, Val Acc:  73.22%, Time: 17:33:11 
+Epoch: 19, Batch:   50500, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.72, Val Acc:  73.78%, Time: 17:43:30 
+Epoch: 19, Batch:   51000, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.74, Val Acc:  72.89%, Time: 17:53:49 
+Epoch: 19, Batch:   51500, Train Batch Loss:   0.78, Train Batch Acc:  67.00%, Val Loss:   0.72, Val Acc:  73.92%, Time: 18:04:08 
+Epoch: 19, Batch:   52000, Train Batch Loss:   0.81, Train Batch Acc:  69.00%, Val Loss:   0.72, Val Acc:  74.29%, Time: 18:14:29 *
+*** Epoch: 19, Train Loss:   0.76, Train Acc:  71.41%, Time: 18:18:16
+Epoch: 20
+Epoch: 20, Batch:   52500, Train Batch Loss:   0.85, Train Batch Acc:  71.50%, Val Loss:   0.73, Val Acc:  73.46%, Time: 18:24:49 
+Epoch: 20, Batch:   53000, Train Batch Loss:   0.75, Train Batch Acc:  71.00%, Val Loss:   0.72, Val Acc:  73.71%, Time: 18:35:09 
+Epoch: 20, Batch:   53500, Train Batch Loss:   0.76, Train Batch Acc:  70.50%, Val Loss:   0.72, Val Acc:  73.96%, Time: 18:45:29 
+Epoch: 20, Batch:   54000, Train Batch Loss:   0.77, Train Batch Acc:  72.50%, Val Loss:   0.73, Val Acc:  73.51%, Time: 18:55:48 
+Epoch: 20, Batch:   54500, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.71, Val Acc:  74.55%, Time: 19:06:45 *
+*** Epoch: 20, Train Loss:   0.76, Train Acc:  71.58%, Time: 19:15:23
+Epoch: 21
+Epoch: 21, Batch:   55000, Train Batch Loss:   0.79, Train Batch Acc:  69.00%, Val Loss:   0.74, Val Acc:  72.87%, Time: 19:17:04 
+Epoch: 21, Batch:   55500, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:   0.72, Val Acc:  73.85%, Time: 19:27:22 
+Epoch: 21, Batch:   56000, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:   0.73, Val Acc:  73.50%, Time: 19:37:41 
+Epoch: 21, Batch:   56500, Train Batch Loss:    0.7, Train Batch Acc:  74.50%, Val Loss:   0.72, Val Acc:  73.40%, Time: 19:47:57 
+Epoch: 21, Batch:   57000, Train Batch Loss:   0.74, Train Batch Acc:  70.50%, Val Loss:   0.71, Val Acc:  74.00%, Time: 19:58:13 
+Epoch: 21, Batch:   57500, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.72, Val Acc:  74.17%, Time: 20:08:29 
+*** Epoch: 21, Train Loss:   0.76, Train Acc:  71.65%, Time: 20:12:08
+Epoch: 22
+Epoch: 22, Batch:   58000, Train Batch Loss:   0.68, Train Batch Acc:  73.00%, Val Loss:   0.72, Val Acc:  74.18%, Time: 20:18:46 
+Epoch: 22, Batch:   58500, Train Batch Loss:    0.8, Train Batch Acc:  68.50%, Val Loss:   0.73, Val Acc:  73.86%, Time: 20:29:02 
+Epoch: 22, Batch:   59000, Train Batch Loss:   0.77, Train Batch Acc:  71.00%, Val Loss:   0.72, Val Acc:  73.93%, Time: 20:39:17 
+Epoch: 22, Batch:   59500, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.71, Val Acc:  74.61%, Time: 20:49:34 *
+Epoch: 22, Batch:   60000, Train Batch Loss:   0.86, Train Batch Acc:  68.00%, Val Loss:   0.71, Val Acc:  74.77%, Time: 20:59:50 *
+*** Epoch: 22, Train Loss:   0.76, Train Acc:  71.77%, Time: 21:08:18
+Epoch: 23
+Epoch: 23, Batch:   60500, Train Batch Loss:   0.78, Train Batch Acc:  73.00%, Val Loss:   0.71, Val Acc:  74.51%, Time: 21:10:06 
+Epoch: 23, Batch:   61000, Train Batch Loss:   0.78, Train Batch Acc:  71.50%, Val Loss:   0.72, Val Acc:  74.22%, Time: 21:20:21 
+Epoch: 23, Batch:   61500, Train Batch Loss:   0.76, Train Batch Acc:  71.50%, Val Loss:   0.72, Val Acc:  74.10%, Time: 21:30:36 
+Epoch: 23, Batch:   62000, Train Batch Loss:   0.73, Train Batch Acc:  73.50%, Val Loss:   0.71, Val Acc:  74.36%, Time: 21:40:51 
+Epoch: 23, Batch:   62500, Train Batch Loss:   0.66, Train Batch Acc:  79.00%, Val Loss:   0.72, Val Acc:  73.71%, Time: 21:51:05 
+Epoch: 23, Batch:   63000, Train Batch Loss:   0.82, Train Batch Acc:  69.00%, Val Loss:   0.73, Val Acc:  73.81%, Time: 22:01:20 
+*** Epoch: 23, Train Loss:   0.76, Train Acc:  71.88%, Time: 22:04:51
+Epoch: 24
+Epoch: 24, Batch:   63500, Train Batch Loss:   0.79, Train Batch Acc:  68.50%, Val Loss:   0.71, Val Acc:  74.58%, Time: 22:11:36 
+Epoch: 24, Batch:   64000, Train Batch Loss:   0.67, Train Batch Acc:  73.50%, Val Loss:   0.72, Val Acc:  74.03%, Time: 22:21:50 
+Epoch: 24, Batch:   64500, Train Batch Loss:   0.69, Train Batch Acc:  75.00%, Val Loss:   0.72, Val Acc:  73.81%, Time: 22:32:05 
+Epoch: 24, Batch:   65000, Train Batch Loss:   0.75, Train Batch Acc:  76.00%, Val Loss:   0.71, Val Acc:  74.54%, Time: 22:42:20 
+Epoch: 24, Batch:   65500, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.71, Val Acc:  74.28%, Time: 22:52:35 
+*** Epoch: 24, Train Loss:   0.76, Train Acc:  72.05%, Time: 23:00:57
+Epoch: 25
+Epoch: 25, Batch:   66000, Train Batch Loss:   0.69, Train Batch Acc:  74.50%, Val Loss:   0.71, Val Acc:  74.49%, Time: 23:02:51 
+Epoch: 25, Batch:   66500, Train Batch Loss:   0.77, Train Batch Acc:  72.50%, Val Loss:   0.71, Val Acc:  74.56%, Time: 23:13:07 
+Epoch: 25, Batch:   67000, Train Batch Loss:   0.82, Train Batch Acc:  67.00%, Val Loss:   0.73, Val Acc:  73.55%, Time: 23:23:22 
+Epoch: 25, Batch:   67500, Train Batch Loss:   0.74, Train Batch Acc:  76.50%, Val Loss:   0.72, Val Acc:  74.09%, Time: 23:33:37 
+Epoch: 25, Batch:   68000, Train Batch Loss:   0.79, Train Batch Acc:  72.50%, Val Loss:   0.71, Val Acc:  74.33%, Time: 23:43:52 
+Epoch: 25, Batch:   68500, Train Batch Loss:   0.76, Train Batch Acc:  73.00%, Val Loss:   0.71, Val Acc:  74.77%, Time: 23:54:09 *
+*** Epoch: 25, Train Loss:   0.76, Train Acc:  72.09%, Time: 23:57:33
+Epoch: 26
+Epoch: 26, Batch:   69000, Train Batch Loss:   0.86, Train Batch Acc:  66.50%, Val Loss:   0.71, Val Acc:  74.32%, Time: 1 day, 0:04:24 
+Epoch: 26, Batch:   69500, Train Batch Loss:   0.71, Train Batch Acc:  73.00%, Val Loss:   0.71, Val Acc:  74.93%, Time: 1 day, 0:14:41 *
+Epoch: 26, Batch:   70000, Train Batch Loss:    0.8, Train Batch Acc:  70.50%, Val Loss:   0.71, Val Acc:  74.70%, Time: 1 day, 0:24:56 
+Epoch: 26, Batch:   70500, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.71, Val Acc:  74.60%, Time: 1 day, 0:35:11 
+Epoch: 26, Batch:   71000, Train Batch Loss:   0.64, Train Batch Acc:  80.00%, Val Loss:   0.72, Val Acc:  73.99%, Time: 1 day, 0:45:26 
+*** Epoch: 26, Train Loss:   0.75, Train Acc:  72.17%, Time: 1 day, 0:53:39
+Epoch: 27
+Epoch: 27, Batch:   71500, Train Batch Loss:   0.65, Train Batch Acc:  74.00%, Val Loss:   0.71, Val Acc:  74.45%, Time: 1 day, 0:55:41 
+Epoch: 27, Batch:   72000, Train Batch Loss:   0.76, Train Batch Acc:  71.00%, Val Loss:   0.71, Val Acc:  74.77%, Time: 1 day, 1:05:56 
+Epoch: 27, Batch:   72500, Train Batch Loss:   0.71, Train Batch Acc:  74.50%, Val Loss:   0.71, Val Acc:  74.60%, Time: 1 day, 1:16:12 
+Epoch: 27, Batch:   73000, Train Batch Loss:    0.8, Train Batch Acc:  70.00%, Val Loss:   0.72, Val Acc:  74.87%, Time: 1 day, 1:26:27 
+Epoch: 27, Batch:   73500, Train Batch Loss:   0.76, Train Batch Acc:  75.00%, Val Loss:   0.71, Val Acc:  74.72%, Time: 1 day, 1:36:43 
+Epoch: 27, Batch:   74000, Train Batch Loss:   0.75, Train Batch Acc:  70.50%, Val Loss:   0.71, Val Acc:  74.81%, Time: 1 day, 1:46:59 
+*** Epoch: 27, Train Loss:   0.75, Train Acc:  72.28%, Time: 1 day, 1:50:16
+Epoch: 28
+Epoch: 28, Batch:   74500, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.71, Val Acc:  74.97%, Time: 1 day, 1:57:16 *
+Epoch: 28, Batch:   75000, Train Batch Loss:   0.76, Train Batch Acc:  71.00%, Val Loss:   0.71, Val Acc:  74.81%, Time: 1 day, 2:07:31 
+Epoch: 28, Batch:   75500, Train Batch Loss:   0.83, Train Batch Acc:  68.50%, Val Loss:   0.71, Val Acc:  74.83%, Time: 1 day, 2:17:47 
+Epoch: 28, Batch:   76000, Train Batch Loss:   0.81, Train Batch Acc:  68.50%, Val Loss:   0.71, Val Acc:  74.56%, Time: 1 day, 2:28:02 
+Epoch: 28, Batch:   76500, Train Batch Loss:   0.73, Train Batch Acc:  70.00%, Val Loss:   0.71, Val Acc:  74.59%, Time: 1 day, 2:38:17 
+*** Epoch: 28, Train Loss:   0.75, Train Acc:  72.40%, Time: 1 day, 2:46:24
+Epoch: 29
+Epoch: 29, Batch:   77000, Train Batch Loss:   0.79, Train Batch Acc:  69.50%, Val Loss:   0.71, Val Acc:  74.98%, Time: 1 day, 2:48:34 *
+Epoch: 29, Batch:   77500, Train Batch Loss:   0.81, Train Batch Acc:  68.50%, Val Loss:   0.72, Val Acc:  74.30%, Time: 1 day, 2:58:49 
+Epoch: 29, Batch:   78000, Train Batch Loss:   0.81, Train Batch Acc:  67.50%, Val Loss:   0.71, Val Acc:  74.86%, Time: 1 day, 3:09:04 
+Epoch: 29, Batch:   78500, Train Batch Loss:   0.71, Train Batch Acc:  71.50%, Val Loss:    0.7, Val Acc:  75.02%, Time: 1 day, 3:19:21 *
+Epoch: 29, Batch:   79000, Train Batch Loss:   0.61, Train Batch Acc:  81.00%, Val Loss:    0.7, Val Acc:  75.05%, Time: 1 day, 3:29:37 *
+Epoch: 29, Batch:   79500, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.71, Val Acc:  74.92%, Time: 1 day, 3:39:52 
+*** Epoch: 29, Train Loss:   0.75, Train Acc:  72.45%, Time: 1 day, 3:43:02
+Epoch: 30
+Epoch: 30, Batch:   80000, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.19%, Time: 1 day, 3:50:09 *
+Epoch: 30, Batch:   80500, Train Batch Loss:   0.77, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.38%, Time: 1 day, 4:00:26 *
+Epoch: 30, Batch:   81000, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.71, Val Acc:  74.82%, Time: 1 day, 4:10:41 
+Epoch: 30, Batch:   81500, Train Batch Loss:   0.82, Train Batch Acc:  68.50%, Val Loss:   0.71, Val Acc:  75.06%, Time: 1 day, 4:20:55 
+Epoch: 30, Batch:   82000, Train Batch Loss:   0.74, Train Batch Acc:  70.00%, Val Loss:   0.71, Val Acc:  74.75%, Time: 1 day, 4:31:10 
+*** Epoch: 30, Train Loss:   0.75, Train Acc:  72.52%, Time: 1 day, 4:39:10
+Epoch: 31
+Epoch: 31, Batch:   82500, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:    0.7, Val Acc:  74.68%, Time: 1 day, 4:41:26 
+Epoch: 31, Batch:   83000, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.58%, Time: 1 day, 4:51:41 *
+Epoch: 31, Batch:   83500, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.71, Val Acc:  74.75%, Time: 1 day, 5:01:56 
+Epoch: 31, Batch:   84000, Train Batch Loss:    0.8, Train Batch Acc:  73.50%, Val Loss:    0.7, Val Acc:  75.13%, Time: 1 day, 5:12:11 
+Epoch: 31, Batch:   84500, Train Batch Loss:    0.8, Train Batch Acc:  67.00%, Val Loss:    0.7, Val Acc:  75.09%, Time: 1 day, 5:22:26 
+Epoch: 31, Batch:   85000, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.71, Val Acc:  74.97%, Time: 1 day, 5:32:40 
+*** Epoch: 31, Train Loss:   0.75, Train Acc:  72.56%, Time: 1 day, 5:35:42
+Epoch: 32
+Epoch: 32, Batch:   85500, Train Batch Loss:   0.75, Train Batch Acc:  72.00%, Val Loss:   0.71, Val Acc:  74.46%, Time: 1 day, 5:42:55 
+Epoch: 32, Batch:   86000, Train Batch Loss:   0.79, Train Batch Acc:  71.00%, Val Loss:   0.76, Val Acc:  71.88%, Time: 1 day, 5:53:09 
+Epoch: 32, Batch:   86500, Train Batch Loss:   0.67, Train Batch Acc:  78.00%, Val Loss:    0.7, Val Acc:  75.36%, Time: 1 day, 6:03:24 
+Epoch: 32, Batch:   87000, Train Batch Loss:   0.78, Train Batch Acc:  70.50%, Val Loss:   0.71, Val Acc:  74.97%, Time: 1 day, 6:13:39 
+Epoch: 32, Batch:   87500, Train Batch Loss:   0.78, Train Batch Acc:  71.00%, Val Loss:    0.7, Val Acc:  75.28%, Time: 1 day, 6:23:54 
+*** Epoch: 32, Train Loss:   0.75, Train Acc:  72.72%, Time: 1 day, 6:31:47
+Epoch: 33
+Epoch: 33, Batch:   88000, Train Batch Loss:   0.68, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.29%, Time: 1 day, 6:34:09 
+Epoch: 33, Batch:   88500, Train Batch Loss:   0.73, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.06%, Time: 1 day, 6:44:24 
+Epoch: 33, Batch:   89000, Train Batch Loss:   0.73, Train Batch Acc:  71.00%, Val Loss:   0.71, Val Acc:  75.19%, Time: 1 day, 6:54:39 
+Epoch: 33, Batch:   89500, Train Batch Loss:   0.77, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.20%, Time: 1 day, 7:04:54 
+Epoch: 33, Batch:   90000, Train Batch Loss:   0.73, Train Batch Acc:  71.50%, Val Loss:    0.7, Val Acc:  75.13%, Time: 1 day, 7:15:09 
+Epoch: 33, Batch:   90500, Train Batch Loss:   0.74, Train Batch Acc:  71.50%, Val Loss:    0.7, Val Acc:  75.15%, Time: 1 day, 7:25:23 
+*** Epoch: 33, Train Loss:   0.75, Train Acc:  72.77%, Time: 1 day, 7:28:19
+Epoch: 34
+Epoch: 34, Batch:   91000, Train Batch Loss:    0.8, Train Batch Acc:  66.00%, Val Loss:   0.71, Val Acc:  74.73%, Time: 1 day, 7:35:38 
+Epoch: 34, Batch:   91500, Train Batch Loss:   0.73, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.13%, Time: 1 day, 7:45:54 
+Epoch: 34, Batch:   92000, Train Batch Loss:   0.73, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.18%, Time: 1 day, 7:56:39 
+Epoch: 34, Batch:   92500, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.74%, Time: 1 day, 8:07:44 *
+Epoch: 34, Batch:   93000, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.22%, Time: 1 day, 8:18:57 
+*** Epoch: 34, Train Loss:   0.75, Train Acc:  72.77%, Time: 1 day, 8:27:04
+Epoch: 35
+Epoch: 35, Batch:   93500, Train Batch Loss:   0.66, Train Batch Acc:  75.50%, Val Loss:    0.7, Val Acc:  75.20%, Time: 1 day, 8:29:41 
+Epoch: 35, Batch:   94000, Train Batch Loss:   0.84, Train Batch Acc:  67.50%, Val Loss:   0.73, Val Acc:  74.01%, Time: 1 day, 8:40:33 
+Epoch: 35, Batch:   94500, Train Batch Loss:   0.73, Train Batch Acc:  71.50%, Val Loss:    0.7, Val Acc:  75.06%, Time: 1 day, 8:51:09 
+Epoch: 35, Batch:   95000, Train Batch Loss:   0.77, Train Batch Acc:  73.50%, Val Loss:   0.71, Val Acc:  75.14%, Time: 1 day, 9:02:10 
+Epoch: 35, Batch:   95500, Train Batch Loss:   0.74, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.24%, Time: 1 day, 9:13:45 
+Epoch: 35, Batch:   96000, Train Batch Loss:   0.75, Train Batch Acc:  71.00%, Val Loss:    0.7, Val Acc:  75.25%, Time: 1 day, 9:24:29 
+*** Epoch: 35, Train Loss:   0.74, Train Acc:  72.89%, Time: 1 day, 9:27:20
+Epoch: 36
+Epoch: 36, Batch:   96500, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.19%, Time: 1 day, 9:34:52 
+Epoch: 36, Batch:   97000, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.40%, Time: 1 day, 9:45:16 
+Epoch: 36, Batch:   97500, Train Batch Loss:   0.77, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.27%, Time: 1 day, 9:55:40 
+Epoch: 36, Batch:   98000, Train Batch Loss:    0.7, Train Batch Acc:  77.00%, Val Loss:    0.7, Val Acc:  75.22%, Time: 1 day, 10:06:04 
+Epoch: 36, Batch:   98500, Train Batch Loss:   0.84, Train Batch Acc:  63.50%, Val Loss:    0.7, Val Acc:  75.34%, Time: 1 day, 10:16:26 
+*** Epoch: 36, Train Loss:   0.74, Train Acc:  72.93%, Time: 1 day, 10:24:05
+Epoch: 37
+Epoch: 37, Batch:   99000, Train Batch Loss:   0.77, Train Batch Acc:  73.50%, Val Loss:    0.7, Val Acc:  75.34%, Time: 1 day, 10:26:42 
+Epoch: 37, Batch:   99500, Train Batch Loss:   0.84, Train Batch Acc:  70.00%, Val Loss:   0.71, Val Acc:  74.70%, Time: 1 day, 10:36:56 
+Epoch: 37, Batch:  100000, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.43%, Time: 1 day, 10:47:12 
+Epoch: 37, Batch:  100500, Train Batch Loss:   0.78, Train Batch Acc:  71.50%, Val Loss:    0.7, Val Acc:  75.34%, Time: 1 day, 10:57:39 
+Epoch: 37, Batch:  101000, Train Batch Loss:   0.68, Train Batch Acc:  76.00%, Val Loss:   0.71, Val Acc:  74.78%, Time: 1 day, 11:08:14 
+Epoch: 37, Batch:  101500, Train Batch Loss:   0.77, Train Batch Acc:  71.50%, Val Loss:    0.7, Val Acc:  75.56%, Time: 1 day, 11:18:58 
+*** Epoch: 37, Train Loss:   0.74, Train Acc:  72.95%, Time: 1 day, 11:21:48
+Epoch: 38
+Epoch: 38, Batch:  102000, Train Batch Loss:   0.79, Train Batch Acc:  71.00%, Val Loss:    0.7, Val Acc:  75.15%, Time: 1 day, 11:29:49 
+Epoch: 38, Batch:  102500, Train Batch Loss:   0.65, Train Batch Acc:  79.50%, Val Loss:    0.7, Val Acc:  75.18%, Time: 1 day, 11:40:36 
+Epoch: 38, Batch:  103000, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.16%, Time: 1 day, 11:50:52 
+Epoch: 38, Batch:  103500, Train Batch Loss:   0.75, Train Batch Acc:  73.50%, Val Loss:    0.7, Val Acc:  75.56%, Time: 1 day, 12:01:07 
+Epoch: 38, Batch:  104000, Train Batch Loss:   0.71, Train Batch Acc:  78.50%, Val Loss:    0.7, Val Acc:  75.75%, Time: 1 day, 12:11:24 *
+*** Epoch: 38, Train Loss:   0.74, Train Acc:  73.02%, Time: 1 day, 12:18:55
+Epoch: 39
+Epoch: 39, Batch:  104500, Train Batch Loss:   0.78, Train Batch Acc:  71.00%, Val Loss:    0.7, Val Acc:  75.15%, Time: 1 day, 12:21:39 
+Epoch: 39, Batch:  105000, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.34%, Time: 1 day, 12:31:54 
+Epoch: 39, Batch:  105500, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:    0.7, Val Acc:  75.10%, Time: 1 day, 12:42:10 
+Epoch: 39, Batch:  106000, Train Batch Loss:   0.72, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.09%, Time: 1 day, 12:52:24 
+Epoch: 39, Batch:  106500, Train Batch Loss:   0.77, Train Batch Acc:  70.00%, Val Loss:   0.71, Val Acc:  74.86%, Time: 1 day, 13:02:40 
+Epoch: 39, Batch:  107000, Train Batch Loss:    0.7, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.54%, Time: 1 day, 13:13:22 
+*** Epoch: 39, Train Loss:   0.74, Train Acc:  72.96%, Time: 1 day, 13:16:05
+Epoch: 40
+Epoch: 40, Batch:  107500, Train Batch Loss:   0.78, Train Batch Acc:  70.00%, Val Loss:    0.7, Val Acc:  75.27%, Time: 1 day, 13:24:01 
+Epoch: 40, Batch:  108000, Train Batch Loss:   0.76, Train Batch Acc:  71.50%, Val Loss:   0.71, Val Acc:  74.65%, Time: 1 day, 13:34:26 
+Epoch: 40, Batch:  108500, Train Batch Loss:   0.66, Train Batch Acc:  79.50%, Val Loss:    0.7, Val Acc:  75.13%, Time: 1 day, 13:44:41 
+Epoch: 40, Batch:  109000, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.40%, Time: 1 day, 13:54:56 
+Epoch: 40, Batch:  109500, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:   0.71, Val Acc:  75.03%, Time: 1 day, 14:05:11 
+*** Epoch: 40, Train Loss:   0.74, Train Acc:  73.08%, Time: 1 day, 14:12:36
+Epoch: 41
+Epoch: 41, Batch:  110000, Train Batch Loss:   0.79, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.20%, Time: 1 day, 14:15:35 
+Epoch: 41, Batch:  110500, Train Batch Loss:   0.66, Train Batch Acc:  74.50%, Val Loss:    0.7, Val Acc:  75.47%, Time: 1 day, 14:26:00 
+Epoch: 41, Batch:  111000, Train Batch Loss:   0.78, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  75.80%, Time: 1 day, 14:36:28 *
+Epoch: 41, Batch:  111500, Train Batch Loss:   0.67, Train Batch Acc:  75.50%, Val Loss:   0.69, Val Acc:  75.64%, Time: 1 day, 14:47:09 
+Epoch: 41, Batch:  112000, Train Batch Loss:    0.8, Train Batch Acc:  71.00%, Val Loss:    0.7, Val Acc:  75.74%, Time: 1 day, 14:57:27 
+Epoch: 41, Batch:  112500, Train Batch Loss:   0.74, Train Batch Acc:  73.50%, Val Loss:    0.7, Val Acc:  75.69%, Time: 1 day, 15:07:41 
+*** Epoch: 41, Train Loss:   0.74, Train Acc:  73.10%, Time: 1 day, 15:10:09
+Epoch: 42
+Epoch: 42, Batch:  113000, Train Batch Loss:   0.75, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.39%, Time: 1 day, 15:17:56 
+Epoch: 42, Batch:  113500, Train Batch Loss:    0.8, Train Batch Acc:  68.00%, Val Loss:    0.7, Val Acc:  75.13%, Time: 1 day, 15:28:11 
+Epoch: 42, Batch:  114000, Train Batch Loss:   0.74, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.31%, Time: 1 day, 15:38:26 
+Epoch: 42, Batch:  114500, Train Batch Loss:   0.74, Train Batch Acc:  76.00%, Val Loss:    0.7, Val Acc:  75.79%, Time: 1 day, 15:48:40 
+Epoch: 42, Batch:  115000, Train Batch Loss:   0.65, Train Batch Acc:  78.50%, Val Loss:    0.7, Val Acc:  75.35%, Time: 1 day, 15:58:56 
+*** Epoch: 42, Train Loss:   0.74, Train Acc:  73.17%, Time: 1 day, 16:06:13
+Epoch: 43
+Epoch: 43, Batch:  115500, Train Batch Loss:   0.82, Train Batch Acc:  68.50%, Val Loss:    0.7, Val Acc:  75.44%, Time: 1 day, 16:09:11 
+Epoch: 43, Batch:  116000, Train Batch Loss:   0.71, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.53%, Time: 1 day, 16:19:25 
+Epoch: 43, Batch:  116500, Train Batch Loss:   0.75, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  75.89%, Time: 1 day, 16:29:42 *
+Epoch: 43, Batch:  117000, Train Batch Loss:   0.65, Train Batch Acc:  80.00%, Val Loss:   0.69, Val Acc:  75.33%, Time: 1 day, 16:39:57 
+Epoch: 43, Batch:  117500, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  75.76%, Time: 1 day, 16:50:12 
+Epoch: 43, Batch:  118000, Train Batch Loss:   0.83, Train Batch Acc:  68.50%, Val Loss:    0.7, Val Acc:  75.33%, Time: 1 day, 17:00:27 
+*** Epoch: 43, Train Loss:   0.74, Train Acc:  73.24%, Time: 1 day, 17:02:47
+Epoch: 44
+Epoch: 44, Batch:  118500, Train Batch Loss:    0.8, Train Batch Acc:  69.50%, Val Loss:   0.69, Val Acc:  75.65%, Time: 1 day, 17:10:42 
+Epoch: 44, Batch:  119000, Train Batch Loss:   0.79, Train Batch Acc:  69.00%, Val Loss:    0.7, Val Acc:  74.92%, Time: 1 day, 17:20:58 
+Epoch: 44, Batch:  119500, Train Batch Loss:   0.76, Train Batch Acc:  73.00%, Val Loss:   0.71, Val Acc:  74.97%, Time: 1 day, 17:31:14 
+Epoch: 44, Batch:  120000, Train Batch Loss:    0.8, Train Batch Acc:  66.50%, Val Loss:    0.7, Val Acc:  75.45%, Time: 1 day, 17:41:28 
+Epoch: 44, Batch:  120500, Train Batch Loss:   0.82, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.39%, Time: 1 day, 17:51:43 
+*** Epoch: 44, Train Loss:   0.74, Train Acc:  73.25%, Time: 1 day, 17:58:53
+Epoch: 45
+Epoch: 45, Batch:  121000, Train Batch Loss:   0.71, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  75.67%, Time: 1 day, 18:01:58 
+Epoch: 45, Batch:  121500, Train Batch Loss:   0.69, Train Batch Acc:  74.50%, Val Loss:    0.7, Val Acc:  75.42%, Time: 1 day, 18:12:13 
+Epoch: 45, Batch:  122000, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.21%, Time: 1 day, 18:22:28 
+Epoch: 45, Batch:  122500, Train Batch Loss:   0.79, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.23%, Time: 1 day, 18:32:43 
+Epoch: 45, Batch:  123000, Train Batch Loss:   0.63, Train Batch Acc:  78.00%, Val Loss:   0.71, Val Acc:  75.22%, Time: 1 day, 18:42:59 
+Epoch: 45, Batch:  123500, Train Batch Loss:   0.69, Train Batch Acc:  75.00%, Val Loss:   0.69, Val Acc:  75.69%, Time: 1 day, 18:53:16 
+*** Epoch: 45, Train Loss:   0.74, Train Acc:  73.37%, Time: 1 day, 18:55:29
+Epoch: 46
+Epoch: 46, Batch:  124000, Train Batch Loss:    0.7, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  75.76%, Time: 1 day, 19:03:33 
+Epoch: 46, Batch:  124500, Train Batch Loss:   0.67, Train Batch Acc:  76.00%, Val Loss:    0.7, Val Acc:  75.24%, Time: 1 day, 19:13:49 
+Epoch: 46, Batch:  125000, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  75.65%, Time: 1 day, 19:24:05 
+Epoch: 46, Batch:  125500, Train Batch Loss:   0.74, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  75.78%, Time: 1 day, 19:34:22 
+Epoch: 46, Batch:  126000, Train Batch Loss:    0.8, Train Batch Acc:  69.00%, Val Loss:    0.7, Val Acc:  75.71%, Time: 1 day, 19:44:38 
+*** Epoch: 46, Train Loss:   0.74, Train Acc:  73.37%, Time: 1 day, 19:51:42
+Epoch: 47
+Epoch: 47, Batch:  126500, Train Batch Loss:   0.63, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  75.44%, Time: 1 day, 19:54:55 
+Epoch: 47, Batch:  127000, Train Batch Loss:   0.83, Train Batch Acc:  69.50%, Val Loss:   0.69, Val Acc:  75.68%, Time: 1 day, 20:05:11 
+Epoch: 47, Batch:  127500, Train Batch Loss:   0.69, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  75.62%, Time: 1 day, 20:15:31 
+Epoch: 47, Batch:  128000, Train Batch Loss:   0.74, Train Batch Acc:  75.00%, Val Loss:   0.69, Val Acc:  75.92%, Time: 1 day, 20:25:49 *
+Epoch: 47, Batch:  128500, Train Batch Loss:   0.76, Train Batch Acc:  75.50%, Val Loss:   0.69, Val Acc:  75.79%, Time: 1 day, 20:36:05 
+Epoch: 47, Batch:  129000, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  75.67%, Time: 1 day, 20:46:22 
+*** Epoch: 47, Train Loss:   0.74, Train Acc:  73.39%, Time: 1 day, 20:48:29
+Epoch: 48
+Epoch: 48, Batch:  129500, Train Batch Loss:    0.7, Train Batch Acc:  75.50%, Val Loss:    0.7, Val Acc:  75.17%, Time: 1 day, 20:56:39 
+Epoch: 48, Batch:  130000, Train Batch Loss:   0.76, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  75.70%, Time: 1 day, 21:06:56 
+Epoch: 48, Batch:  130500, Train Batch Loss:   0.81, Train Batch Acc:  70.50%, Val Loss:    0.7, Val Acc:  75.46%, Time: 1 day, 21:17:13 
+Epoch: 48, Batch:  131000, Train Batch Loss:   0.73, Train Batch Acc:  75.00%, Val Loss:   0.69, Val Acc:  75.86%, Time: 1 day, 21:27:29 
+Epoch: 48, Batch:  131500, Train Batch Loss:    0.8, Train Batch Acc:  71.50%, Val Loss:    0.7, Val Acc:  75.80%, Time: 1 day, 21:37:46 
+*** Epoch: 48, Train Loss:   0.74, Train Acc:  73.41%, Time: 1 day, 21:44:43
+Epoch: 49
+Epoch: 49, Batch:  132000, Train Batch Loss:   0.79, Train Batch Acc:  70.00%, Val Loss:   0.69, Val Acc:  75.95%, Time: 1 day, 21:48:04 *
+Epoch: 49, Batch:  132500, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  75.72%, Time: 1 day, 21:58:20 
+Epoch: 49, Batch:  133000, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.49%, Time: 1 day, 22:08:37 
+Epoch: 49, Batch:  133500, Train Batch Loss:    0.6, Train Batch Acc:  80.00%, Val Loss:   0.69, Val Acc:  75.70%, Time: 1 day, 22:18:54 
+Epoch: 49, Batch:  134000, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.03%, Time: 1 day, 22:29:10 
+Epoch: 49, Batch:  134500, Train Batch Loss:   0.75, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  75.68%, Time: 1 day, 22:39:26 
+*** Epoch: 49, Train Loss:   0.74, Train Acc:  73.41%, Time: 1 day, 22:41:26
+Epoch: 50
+Epoch: 50, Batch:  135000, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.97%, Time: 1 day, 22:49:44 *
+Epoch: 50, Batch:  135500, Train Batch Loss:    0.7, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  75.92%, Time: 1 day, 23:00:00 
+Epoch: 50, Batch:  136000, Train Batch Loss:   0.77, Train Batch Acc:  71.00%, Val Loss:   0.69, Val Acc:  75.75%, Time: 1 day, 23:10:17 
+Epoch: 50, Batch:  136500, Train Batch Loss:   0.78, Train Batch Acc:  71.00%, Val Loss:   0.69, Val Acc:  76.07%, Time: 1 day, 23:20:34 *
+Epoch: 50, Batch:  137000, Train Batch Loss:    0.8, Train Batch Acc:  68.50%, Val Loss:    0.7, Val Acc:  74.77%, Time: 1 day, 23:30:51 
+*** Epoch: 50, Train Loss:   0.74, Train Acc:  73.48%, Time: 1 day, 23:37:41
+Epoch: 51
+Epoch: 51, Batch:  137500, Train Batch Loss:   0.74, Train Batch Acc:  73.50%, Val Loss:   0.71, Val Acc:  75.28%, Time: 1 day, 23:41:07 
+Epoch: 51, Batch:  138000, Train Batch Loss:    0.8, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  75.68%, Time: 1 day, 23:51:24 
+Epoch: 51, Batch:  138500, Train Batch Loss:   0.76, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.62%, Time: 2 days, 0:01:40 
+Epoch: 51, Batch:  139000, Train Batch Loss:   0.72, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  75.91%, Time: 2 days, 0:11:57 
+Epoch: 51, Batch:  139500, Train Batch Loss:   0.77, Train Batch Acc:  71.00%, Val Loss:   0.69, Val Acc:  75.97%, Time: 2 days, 0:22:13 
+Epoch: 51, Batch:  140000, Train Batch Loss:   0.79, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.46%, Time: 2 days, 0:32:29 
+*** Epoch: 51, Train Loss:   0.73, Train Acc:  73.48%, Time: 2 days, 0:34:22
+Epoch: 52
+Epoch: 52, Batch:  140500, Train Batch Loss:   0.73, Train Batch Acc:  75.50%, Val Loss:   0.72, Val Acc:  74.59%, Time: 2 days, 0:42:46 
+Epoch: 52, Batch:  141000, Train Batch Loss:   0.69, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.43%, Time: 2 days, 0:53:02 
+Epoch: 52, Batch:  141500, Train Batch Loss:   0.77, Train Batch Acc:  69.50%, Val Loss:   0.69, Val Acc:  75.98%, Time: 2 days, 1:03:19 
+Epoch: 52, Batch:  142000, Train Batch Loss:   0.81, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.58%, Time: 2 days, 1:13:35 
+Epoch: 52, Batch:  142500, Train Batch Loss:   0.76, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  76.05%, Time: 2 days, 1:23:52 
+*** Epoch: 52, Train Loss:   0.73, Train Acc:  73.57%, Time: 2 days, 1:30:36
+Epoch: 53
+Epoch: 53, Batch:  143000, Train Batch Loss:   0.75, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  75.59%, Time: 2 days, 1:34:10 
+Epoch: 53, Batch:  143500, Train Batch Loss:   0.75, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.32%, Time: 2 days, 1:44:27 
+Epoch: 53, Batch:  144000, Train Batch Loss:   0.73, Train Batch Acc:  73.50%, Val Loss:    0.7, Val Acc:  75.47%, Time: 2 days, 1:54:44 
+Epoch: 53, Batch:  144500, Train Batch Loss:   0.75, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.17%, Time: 2 days, 2:05:00 
+Epoch: 53, Batch:  145000, Train Batch Loss:   0.67, Train Batch Acc:  78.50%, Val Loss:   0.69, Val Acc:  75.96%, Time: 2 days, 2:15:17 
+Epoch: 53, Batch:  145500, Train Batch Loss:   0.75, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  75.84%, Time: 2 days, 2:25:33 
+*** Epoch: 53, Train Loss:   0.73, Train Acc:  73.57%, Time: 2 days, 2:27:19
+Epoch: 54
+Epoch: 54, Batch:  146000, Train Batch Loss:   0.77, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.87%, Time: 2 days, 2:35:50 
+Epoch: 54, Batch:  146500, Train Batch Loss:   0.63, Train Batch Acc:  81.50%, Val Loss:   0.69, Val Acc:  76.02%, Time: 2 days, 2:46:07 
+Epoch: 54, Batch:  147000, Train Batch Loss:   0.76, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  75.78%, Time: 2 days, 2:56:23 
+Epoch: 54, Batch:  147500, Train Batch Loss:   0.76, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.62%, Time: 2 days, 3:06:40 
+Epoch: 54, Batch:  148000, Train Batch Loss:   0.75, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  76.11%, Time: 2 days, 3:16:58 *
+*** Epoch: 54, Train Loss:   0.73, Train Acc:  73.55%, Time: 2 days, 3:23:33
+Epoch: 55
+Epoch: 55, Batch:  148500, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  75.87%, Time: 2 days, 3:27:14 
+Epoch: 55, Batch:  149000, Train Batch Loss:   0.75, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  75.93%, Time: 2 days, 3:37:30 
+Epoch: 55, Batch:  149500, Train Batch Loss:   0.81, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  76.14%, Time: 2 days, 3:47:49 *
+Epoch: 55, Batch:  150000, Train Batch Loss:   0.75, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  75.90%, Time: 2 days, 3:58:05 
+Epoch: 55, Batch:  150500, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  75.32%, Time: 2 days, 4:08:21 
+Epoch: 55, Batch:  151000, Train Batch Loss:   0.65, Train Batch Acc:  78.00%, Val Loss:   0.69, Val Acc:  76.11%, Time: 2 days, 4:18:38 
+*** Epoch: 55, Train Loss:   0.73, Train Acc:  73.63%, Time: 2 days, 4:20:16
+Epoch: 56
+Epoch: 56, Batch:  151500, Train Batch Loss:   0.65, Train Batch Acc:  79.50%, Val Loss:   0.69, Val Acc:  75.84%, Time: 2 days, 4:28:55 
+Epoch: 56, Batch:  152000, Train Batch Loss:   0.77, Train Batch Acc:  71.50%, Val Loss:   0.69, Val Acc:  75.98%, Time: 2 days, 4:39:11 
+Epoch: 56, Batch:  152500, Train Batch Loss:   0.67, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  75.64%, Time: 2 days, 4:49:27 
+Epoch: 56, Batch:  153000, Train Batch Loss:   0.66, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  75.80%, Time: 2 days, 4:59:44 
+Epoch: 56, Batch:  153500, Train Batch Loss:   0.66, Train Batch Acc:  76.50%, Val Loss:    0.7, Val Acc:  75.40%, Time: 2 days, 5:10:00 
+*** Epoch: 56, Train Loss:   0.73, Train Acc:  73.64%, Time: 2 days, 5:16:29
+Epoch: 57
+Epoch: 57, Batch:  154000, Train Batch Loss:   0.74, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  75.90%, Time: 2 days, 5:20:17 
+Epoch: 57, Batch:  154500, Train Batch Loss:   0.76, Train Batch Acc:  72.50%, Val Loss:   0.71, Val Acc:  74.96%, Time: 2 days, 5:30:34 
+Epoch: 57, Batch:  155000, Train Batch Loss:   0.68, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  75.92%, Time: 2 days, 5:40:50 
+Epoch: 57, Batch:  155500, Train Batch Loss:   0.67, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  75.69%, Time: 2 days, 5:51:06 
+Epoch: 57, Batch:  156000, Train Batch Loss:   0.65, Train Batch Acc:  77.50%, Val Loss:    0.7, Val Acc:  75.64%, Time: 2 days, 6:01:23 
+Epoch: 57, Batch:  156500, Train Batch Loss:   0.78, Train Batch Acc:  71.00%, Val Loss:   0.69, Val Acc:  76.02%, Time: 2 days, 6:11:39 
+*** Epoch: 57, Train Loss:   0.73, Train Acc:  73.70%, Time: 2 days, 6:13:10
+Epoch: 58
+Epoch: 58, Batch:  157000, Train Batch Loss:   0.69, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  76.03%, Time: 2 days, 6:21:55 
+Epoch: 58, Batch:  157500, Train Batch Loss:   0.73, Train Batch Acc:  80.50%, Val Loss:   0.69, Val Acc:  76.02%, Time: 2 days, 6:32:12 
+Epoch: 58, Batch:  158000, Train Batch Loss:   0.74, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.50%, Time: 2 days, 6:42:28 
+Epoch: 58, Batch:  158500, Train Batch Loss:   0.76, Train Batch Acc:  68.50%, Val Loss:    0.7, Val Acc:  75.86%, Time: 2 days, 6:52:44 
+Epoch: 58, Batch:  159000, Train Batch Loss:   0.76, Train Batch Acc:  75.00%, Val Loss:   0.69, Val Acc:  76.38%, Time: 2 days, 7:03:03 *
+*** Epoch: 58, Train Loss:   0.73, Train Acc:  73.73%, Time: 2 days, 7:09:25
+Epoch: 59
+Epoch: 59, Batch:  159500, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  75.98%, Time: 2 days, 7:13:19 
+Epoch: 59, Batch:  160000, Train Batch Loss:   0.64, Train Batch Acc:  79.50%, Val Loss:   0.69, Val Acc:  76.21%, Time: 2 days, 7:23:36 
+Epoch: 59, Batch:  160500, Train Batch Loss:   0.72, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  76.21%, Time: 2 days, 7:33:53 
+Epoch: 59, Batch:  161000, Train Batch Loss:   0.81, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.66%, Time: 2 days, 7:44:08 
+Epoch: 59, Batch:  161500, Train Batch Loss:   0.76, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  76.31%, Time: 2 days, 7:54:32 
+Epoch: 59, Batch:  162000, Train Batch Loss:    0.7, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.38%, Time: 2 days, 8:04:52 
+*** Epoch: 59, Train Loss:   0.73, Train Acc:  73.70%, Time: 2 days, 8:06:17
+Epoch: 60
+Epoch: 60, Batch:  162500, Train Batch Loss:   0.69, Train Batch Acc:  77.50%, Val Loss:    0.7, Val Acc:  75.59%, Time: 2 days, 8:15:09 
+Epoch: 60, Batch:  163000, Train Batch Loss:    0.7, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  76.26%, Time: 2 days, 8:25:24 
+Epoch: 60, Batch:  163500, Train Batch Loss:   0.72, Train Batch Acc:  71.50%, Val Loss:   0.69, Val Acc:  76.07%, Time: 2 days, 8:35:40 
+Epoch: 60, Batch:  164000, Train Batch Loss:   0.78, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  75.90%, Time: 2 days, 8:45:56 
+Epoch: 60, Batch:  164500, Train Batch Loss:   0.71, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  75.93%, Time: 2 days, 8:56:12 
+*** Epoch: 60, Train Loss:   0.73, Train Acc:  73.72%, Time: 2 days, 9:02:26
+Epoch: 61
+Epoch: 61, Batch:  165000, Train Batch Loss:   0.79, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.98%, Time: 2 days, 9:06:28 
+Epoch: 61, Batch:  165500, Train Batch Loss:   0.75, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  75.52%, Time: 2 days, 9:16:47 
+Epoch: 61, Batch:  166000, Train Batch Loss:   0.74, Train Batch Acc:  69.00%, Val Loss:   0.69, Val Acc:  75.83%, Time: 2 days, 9:27:01 
+Epoch: 61, Batch:  166500, Train Batch Loss:   0.67, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  76.25%, Time: 2 days, 9:37:17 
+Epoch: 61, Batch:  167000, Train Batch Loss:   0.68, Train Batch Acc:  78.00%, Val Loss:   0.69, Val Acc:  75.88%, Time: 2 days, 9:47:32 
+Epoch: 61, Batch:  167500, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  75.53%, Time: 2 days, 9:57:47 
+*** Epoch: 61, Train Loss:   0.73, Train Acc:  73.78%, Time: 2 days, 9:59:05
+Epoch: 62
+Epoch: 62, Batch:  168000, Train Batch Loss:   0.85, Train Batch Acc:  66.50%, Val Loss:   0.69, Val Acc:  76.08%, Time: 2 days, 10:08:04 
+Epoch: 62, Batch:  168500, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  75.90%, Time: 2 days, 10:18:19 
+Epoch: 62, Batch:  169000, Train Batch Loss:   0.69, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.28%, Time: 2 days, 10:28:34 
+Epoch: 62, Batch:  169500, Train Batch Loss:   0.81, Train Batch Acc:  68.00%, Val Loss:   0.68, Val Acc:  76.16%, Time: 2 days, 10:38:49 
+Epoch: 62, Batch:  170000, Train Batch Loss:   0.76, Train Batch Acc:  70.00%, Val Loss:   0.75, Val Acc:  72.88%, Time: 2 days, 10:49:05 
+*** Epoch: 62, Train Loss:   0.73, Train Acc:  73.79%, Time: 2 days, 10:55:12
+Epoch: 63
+Epoch: 63, Batch:  170500, Train Batch Loss:   0.64, Train Batch Acc:  79.00%, Val Loss:   0.69, Val Acc:  76.24%, Time: 2 days, 10:59:20 
+Epoch: 63, Batch:  171000, Train Batch Loss:   0.75, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  75.69%, Time: 2 days, 11:09:36 
+Epoch: 63, Batch:  171500, Train Batch Loss:   0.76, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.96%, Time: 2 days, 11:19:51 
+Epoch: 63, Batch:  172000, Train Batch Loss:   0.77, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  76.07%, Time: 2 days, 11:30:06 
+Epoch: 63, Batch:  172500, Train Batch Loss:   0.77, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.02%, Time: 2 days, 11:40:21 
+Epoch: 63, Batch:  173000, Train Batch Loss:   0.67, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  75.64%, Time: 2 days, 11:50:36 
+*** Epoch: 63, Train Loss:   0.73, Train Acc:  73.82%, Time: 2 days, 11:51:47
+Epoch: 64
+Epoch: 64, Batch:  173500, Train Batch Loss:   0.72, Train Batch Acc:  77.00%, Val Loss:   0.75, Val Acc:  72.41%, Time: 2 days, 12:00:51 
+Epoch: 64, Batch:  174000, Train Batch Loss:   0.81, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.80%, Time: 2 days, 12:11:07 
+Epoch: 64, Batch:  174500, Train Batch Loss:   0.77, Train Batch Acc:  72.50%, Val Loss:   0.69, Val Acc:  75.50%, Time: 2 days, 12:21:22 
+Epoch: 64, Batch:  175000, Train Batch Loss:   0.86, Train Batch Acc:  66.50%, Val Loss:   0.69, Val Acc:  75.94%, Time: 2 days, 12:31:37 
+Epoch: 64, Batch:  175500, Train Batch Loss:   0.71, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.60%, Time: 2 days, 12:41:52 
+*** Epoch: 64, Train Loss:   0.73, Train Acc:  73.82%, Time: 2 days, 12:47:53
+Epoch: 65
+Epoch: 65, Batch:  176000, Train Batch Loss:   0.78, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.79%, Time: 2 days, 12:52:08 
+Epoch: 65, Batch:  176500, Train Batch Loss:   0.74, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  75.83%, Time: 2 days, 13:02:23 
+Epoch: 65, Batch:  177000, Train Batch Loss:   0.65, Train Batch Acc:  80.50%, Val Loss:   0.69, Val Acc:  76.01%, Time: 2 days, 13:12:38 
+Epoch: 65, Batch:  177500, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.72%, Time: 2 days, 13:22:54 
+Epoch: 65, Batch:  178000, Train Batch Loss:   0.77, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  76.14%, Time: 2 days, 13:33:08 
+Epoch: 65, Batch:  178500, Train Batch Loss:   0.76, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  76.06%, Time: 2 days, 13:43:23 
+*** Epoch: 65, Train Loss:   0.73, Train Acc:  73.90%, Time: 2 days, 13:44:26
+Epoch: 66
+Epoch: 66, Batch:  179000, Train Batch Loss:   0.76, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.32%, Time: 2 days, 13:53:38 
+Epoch: 66, Batch:  179500, Train Batch Loss:   0.74, Train Batch Acc:  75.50%, Val Loss:   0.69, Val Acc:  76.01%, Time: 2 days, 14:04:07 
+Epoch: 66, Batch:  180000, Train Batch Loss:   0.65, Train Batch Acc:  79.50%, Val Loss:   0.69, Val Acc:  75.90%, Time: 2 days, 14:15:30 
+Epoch: 66, Batch:  180500, Train Batch Loss:    0.8, Train Batch Acc:  68.00%, Val Loss:   0.69, Val Acc:  75.94%, Time: 2 days, 14:27:59 
+Epoch: 66, Batch:  181000, Train Batch Loss:    0.8, Train Batch Acc:  71.00%, Val Loss:    0.7, Val Acc:  75.87%, Time: 2 days, 14:40:14 
+*** Epoch: 66, Train Loss:   0.73, Train Acc:  73.91%, Time: 2 days, 14:47:31
+Epoch: 67
+Epoch: 67, Batch:  181500, Train Batch Loss:   0.75, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  75.90%, Time: 2 days, 14:53:00 
+Epoch: 67, Batch:  182000, Train Batch Loss:   0.68, Train Batch Acc:  78.00%, Val Loss:   0.69, Val Acc:  75.89%, Time: 2 days, 15:05:42 
+Epoch: 67, Batch:  182500, Train Batch Loss:   0.73, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.45%, Time: 2 days, 15:18:05 *
+Epoch: 67, Batch:  183000, Train Batch Loss:   0.67, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  76.17%, Time: 2 days, 15:28:52 
+Epoch: 67, Batch:  183500, Train Batch Loss:   0.75, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.06%, Time: 2 days, 15:39:38 
+Epoch: 67, Batch:  184000, Train Batch Loss:   0.73, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  75.98%, Time: 2 days, 15:50:23 
+*** Epoch: 67, Train Loss:   0.73, Train Acc:  73.94%, Time: 2 days, 15:51:22
+Epoch: 68
+Epoch: 68, Batch:  184500, Train Batch Loss:   0.72, Train Batch Acc:  78.50%, Val Loss:   0.76, Val Acc:  72.24%, Time: 2 days, 16:02:46 
+Epoch: 68, Batch:  185000, Train Batch Loss:   0.67, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  76.46%, Time: 2 days, 16:15:43 *
+Epoch: 68, Batch:  185500, Train Batch Loss:   0.71, Train Batch Acc:  78.50%, Val Loss:   0.69, Val Acc:  75.93%, Time: 2 days, 16:28:39 
+Epoch: 68, Batch:  186000, Train Batch Loss:   0.79, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  76.01%, Time: 2 days, 16:39:49 
+Epoch: 68, Batch:  186500, Train Batch Loss:   0.77, Train Batch Acc:  70.50%, Val Loss:   0.68, Val Acc:  75.96%, Time: 2 days, 16:50:30 
+*** Epoch: 68, Train Loss:   0.73, Train Acc:  73.88%, Time: 2 days, 16:56:22
+Epoch: 69
+Epoch: 69, Batch:  187000, Train Batch Loss:   0.83, Train Batch Acc:  70.00%, Val Loss:   0.68, Val Acc:  76.41%, Time: 2 days, 17:00:55 
+Epoch: 69, Batch:  187500, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  76.23%, Time: 2 days, 17:11:28 
+Epoch: 69, Batch:  188000, Train Batch Loss:   0.73, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.22%, Time: 2 days, 17:24:20 
+Epoch: 69, Batch:  188500, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.69, Val Acc:  76.05%, Time: 2 days, 17:37:21 
+Epoch: 69, Batch:  189000, Train Batch Loss:   0.64, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.01%, Time: 2 days, 17:47:58 
+Epoch: 69, Batch:  189500, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  76.08%, Time: 2 days, 18:00:18 
+*** Epoch: 69, Train Loss:   0.73, Train Acc:  73.93%, Time: 2 days, 18:01:20
+Epoch: 70
+Epoch: 70, Batch:  190000, Train Batch Loss:   0.75, Train Batch Acc:  72.50%, Val Loss:   0.69, Val Acc:  75.67%, Time: 2 days, 18:13:25 
+Epoch: 70, Batch:  190500, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  76.18%, Time: 2 days, 18:26:32 
+Epoch: 70, Batch:  191000, Train Batch Loss:   0.72, Train Batch Acc:  75.50%, Val Loss:   0.69, Val Acc:  75.64%, Time: 2 days, 18:37:30 
+Epoch: 70, Batch:  191500, Train Batch Loss:   0.69, Train Batch Acc:  77.00%, Val Loss:    0.7, Val Acc:  75.56%, Time: 2 days, 18:47:45 
+Epoch: 70, Batch:  192000, Train Batch Loss:    0.8, Train Batch Acc:  69.00%, Val Loss:    0.7, Val Acc:  75.69%, Time: 2 days, 18:58:00 
+*** Epoch: 70, Train Loss:   0.73, Train Acc:  73.95%, Time: 2 days, 19:03:40
+Epoch: 71
+Epoch: 71, Batch:  192500, Train Batch Loss:   0.77, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.84%, Time: 2 days, 19:08:17 
+Epoch: 71, Batch:  193000, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  75.59%, Time: 2 days, 19:18:32 
+Epoch: 71, Batch:  193500, Train Batch Loss:   0.74, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  76.16%, Time: 2 days, 19:28:47 
+Epoch: 71, Batch:  194000, Train Batch Loss:   0.72, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.41%, Time: 2 days, 19:39:07 
+Epoch: 71, Batch:  194500, Train Batch Loss:   0.75, Train Batch Acc:  72.50%, Val Loss:   0.69, Val Acc:  76.16%, Time: 2 days, 19:51:07 
+Epoch: 71, Batch:  195000, Train Batch Loss:   0.63, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.45%, Time: 2 days, 20:03:22 
+*** Epoch: 71, Train Loss:   0.73, Train Acc:  74.00%, Time: 2 days, 20:04:12
+Epoch: 72
+Epoch: 72, Batch:  195500, Train Batch Loss:   0.75, Train Batch Acc:  75.00%, Val Loss:    0.7, Val Acc:  75.55%, Time: 2 days, 20:15:35 
+Epoch: 72, Batch:  196000, Train Batch Loss:   0.71, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  76.18%, Time: 2 days, 20:26:13 
+Epoch: 72, Batch:  196500, Train Batch Loss:   0.77, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.49%, Time: 2 days, 20:37:02 *
+Epoch: 72, Batch:  197000, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.26%, Time: 2 days, 20:47:48 
+Epoch: 72, Batch:  197500, Train Batch Loss:    0.7, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.53%, Time: 2 days, 20:58:05 *
+*** Epoch: 72, Train Loss:   0.73, Train Acc:  74.06%, Time: 2 days, 21:03:38
+Epoch: 73
+Epoch: 73, Batch:  198000, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  75.69%, Time: 2 days, 21:08:22 
+Epoch: 73, Batch:  198500, Train Batch Loss:    0.6, Train Batch Acc:  80.00%, Val Loss:   0.68, Val Acc:  76.42%, Time: 2 days, 21:18:37 
+Epoch: 73, Batch:  199000, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  75.99%, Time: 2 days, 21:28:52 
+Epoch: 73, Batch:  199500, Train Batch Loss:   0.78, Train Batch Acc:  69.50%, Val Loss:   0.69, Val Acc:  76.03%, Time: 2 days, 21:39:08 
+Epoch: 73, Batch:  200000, Train Batch Loss:    0.7, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.55%, Time: 2 days, 21:49:23 
+Epoch: 73, Batch:  200500, Train Batch Loss:   0.77, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  75.85%, Time: 2 days, 21:59:38 
+*** Epoch: 73, Train Loss:   0.73, Train Acc:  74.06%, Time: 2 days, 22:00:13
+Epoch: 74
+Epoch: 74, Batch:  201000, Train Batch Loss:   0.72, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.46%, Time: 2 days, 22:09:54 
+Epoch: 74, Batch:  201500, Train Batch Loss:   0.69, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  75.83%, Time: 2 days, 22:20:10 
+Epoch: 74, Batch:  202000, Train Batch Loss:   0.72, Train Batch Acc:  71.00%, Val Loss:   0.69, Val Acc:  76.31%, Time: 2 days, 22:30:24 
+Epoch: 74, Batch:  202500, Train Batch Loss:   0.69, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  76.10%, Time: 2 days, 22:40:39 
+Epoch: 74, Batch:  203000, Train Batch Loss:   0.81, Train Batch Acc:  67.50%, Val Loss:   0.68, Val Acc:  76.51%, Time: 2 days, 22:50:54 
+*** Epoch: 74, Train Loss:   0.72, Train Acc:  74.04%, Time: 2 days, 22:56:20
+Epoch: 75
+Epoch: 75, Batch:  203500, Train Batch Loss:   0.78, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.14%, Time: 2 days, 23:01:10 
+Epoch: 75, Batch:  204000, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.69, Val Acc:  76.04%, Time: 2 days, 23:11:25 
+Epoch: 75, Batch:  204500, Train Batch Loss:   0.66, Train Batch Acc:  79.50%, Val Loss:   0.68, Val Acc:  76.72%, Time: 2 days, 23:21:42 *
+Epoch: 75, Batch:  205000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  75.97%, Time: 2 days, 23:31:57 
+Epoch: 75, Batch:  205500, Train Batch Loss:   0.65, Train Batch Acc:  80.50%, Val Loss:   0.69, Val Acc:  75.92%, Time: 2 days, 23:42:12 
+Epoch: 75, Batch:  206000, Train Batch Loss:    0.8, Train Batch Acc:  68.50%, Val Loss:   0.68, Val Acc:  76.44%, Time: 2 days, 23:52:27 
+*** Epoch: 75, Train Loss:   0.72, Train Acc:  74.11%, Time: 2 days, 23:52:55
+Epoch: 76
+Epoch: 76, Batch:  206500, Train Batch Loss:   0.74, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  76.11%, Time: 3 days, 0:02:42 
+Epoch: 76, Batch:  207000, Train Batch Loss:   0.75, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.56%, Time: 3 days, 0:12:58 
+Epoch: 76, Batch:  207500, Train Batch Loss:   0.67, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.36%, Time: 3 days, 0:23:12 
+Epoch: 76, Batch:  208000, Train Batch Loss:   0.75, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.35%, Time: 3 days, 0:33:27 
+Epoch: 76, Batch:  208500, Train Batch Loss:   0.74, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.20%, Time: 3 days, 0:43:43 
+*** Epoch: 76, Train Loss:   0.72, Train Acc:  74.18%, Time: 3 days, 0:49:00
+Epoch: 77
+Epoch: 77, Batch:  209000, Train Batch Loss:   0.78, Train Batch Acc:  72.50%, Val Loss:   0.69, Val Acc:  76.19%, Time: 3 days, 0:53:58 
+Epoch: 77, Batch:  209500, Train Batch Loss:   0.71, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.18%, Time: 3 days, 1:04:13 
+Epoch: 77, Batch:  210000, Train Batch Loss:   0.68, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.40%, Time: 3 days, 1:14:28 
+Epoch: 77, Batch:  210500, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  76.31%, Time: 3 days, 1:24:43 
+Epoch: 77, Batch:  211000, Train Batch Loss:   0.72, Train Batch Acc:  72.00%, Val Loss:    0.7, Val Acc:  75.58%, Time: 3 days, 1:34:59 
+Epoch: 77, Batch:  211500, Train Batch Loss:   0.78, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.23%, Time: 3 days, 1:45:14 
+*** Epoch: 77, Train Loss:   0.72, Train Acc:  74.17%, Time: 3 days, 1:45:34
+Epoch: 78
+Epoch: 78, Batch:  212000, Train Batch Loss:   0.75, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.64%, Time: 3 days, 1:55:29 
+Epoch: 78, Batch:  212500, Train Batch Loss:    0.7, Train Batch Acc:  75.00%, Val Loss:   0.69, Val Acc:  76.34%, Time: 3 days, 2:05:44 
+Epoch: 78, Batch:  213000, Train Batch Loss:   0.67, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.17%, Time: 3 days, 2:16:01 
+Epoch: 78, Batch:  213500, Train Batch Loss:   0.68, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  76.59%, Time: 3 days, 2:26:16 
+Epoch: 78, Batch:  214000, Train Batch Loss:   0.74, Train Batch Acc:  71.50%, Val Loss:    0.7, Val Acc:  75.58%, Time: 3 days, 2:36:31 
+*** Epoch: 78, Train Loss:   0.72, Train Acc:  74.21%, Time: 3 days, 2:41:42
+Epoch: 79
+Epoch: 79, Batch:  214500, Train Batch Loss:   0.74, Train Batch Acc:  73.00%, Val Loss:    0.7, Val Acc:  75.70%, Time: 3 days, 2:46:47 
+Epoch: 79, Batch:  215000, Train Batch Loss:   0.79, Train Batch Acc:  70.00%, Val Loss:   0.69, Val Acc:  75.96%, Time: 3 days, 2:57:02 
+Epoch: 79, Batch:  215500, Train Batch Loss:   0.69, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.03%, Time: 3 days, 3:07:17 
+Epoch: 79, Batch:  216000, Train Batch Loss:   0.72, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.41%, Time: 3 days, 3:17:31 
+Epoch: 79, Batch:  216500, Train Batch Loss:   0.73, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  75.58%, Time: 3 days, 3:27:46 
+Epoch: 79, Batch:  217000, Train Batch Loss:   0.75, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  76.23%, Time: 3 days, 3:38:01 
+*** Epoch: 79, Train Loss:   0.72, Train Acc:  74.15%, Time: 3 days, 3:38:15
+Epoch: 80
+Epoch: 80, Batch:  217500, Train Batch Loss:    0.7, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  76.03%, Time: 3 days, 3:48:17 
+Epoch: 80, Batch:  218000, Train Batch Loss:   0.65, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.12%, Time: 3 days, 3:58:32 
+Epoch: 80, Batch:  218500, Train Batch Loss:   0.72, Train Batch Acc:  72.00%, Val Loss:   0.71, Val Acc:  75.11%, Time: 3 days, 4:08:47 
+Epoch: 80, Batch:  219000, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.71%, Time: 3 days, 4:19:03 
+Epoch: 80, Batch:  219500, Train Batch Loss:   0.77, Train Batch Acc:  70.00%, Val Loss:   0.69, Val Acc:  76.32%, Time: 3 days, 4:29:18 
+*** Epoch: 80, Train Loss:   0.72, Train Acc:  74.17%, Time: 3 days, 4:34:22
+Epoch: 81
+Epoch: 81, Batch:  220000, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  76.46%, Time: 3 days, 4:39:34 
+Epoch: 81, Batch:  220500, Train Batch Loss:   0.71, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.37%, Time: 3 days, 4:49:49 
+Epoch: 81, Batch:  221000, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.48%, Time: 3 days, 5:00:04 
+Epoch: 81, Batch:  221500, Train Batch Loss:   0.75, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.11%, Time: 3 days, 5:10:19 
+Epoch: 81, Batch:  222000, Train Batch Loss:   0.71, Train Batch Acc:  77.50%, Val Loss:   0.69, Val Acc:  76.33%, Time: 3 days, 5:20:34 
+Epoch: 81, Batch:  222500, Train Batch Loss:   0.66, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  76.34%, Time: 3 days, 5:30:49 
+*** Epoch: 81, Train Loss:   0.72, Train Acc:  74.22%, Time: 3 days, 5:30:56
+Epoch: 82
+Epoch: 82, Batch:  223000, Train Batch Loss:   0.71, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  75.84%, Time: 3 days, 5:41:04 
+Epoch: 82, Batch:  223500, Train Batch Loss:   0.72, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  76.26%, Time: 3 days, 5:51:20 
+Epoch: 82, Batch:  224000, Train Batch Loss:   0.73, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  75.87%, Time: 3 days, 6:01:37 
+Epoch: 82, Batch:  224500, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.69, Val Acc:  76.23%, Time: 3 days, 6:11:53 
+Epoch: 82, Batch:  225000, Train Batch Loss:   0.74, Train Batch Acc:  70.50%, Val Loss:   0.68, Val Acc:  76.37%, Time: 3 days, 6:22:09 
+*** Epoch: 82, Train Loss:   0.72, Train Acc:  74.20%, Time: 3 days, 6:27:07
+Epoch: 83
+Epoch: 83, Batch:  225500, Train Batch Loss:   0.73, Train Batch Acc:  70.50%, Val Loss:   0.69, Val Acc:  76.34%, Time: 3 days, 6:32:26 
+Epoch: 83, Batch:  226000, Train Batch Loss:   0.83, Train Batch Acc:  68.00%, Val Loss:   0.68, Val Acc:  76.31%, Time: 3 days, 6:42:42 
+Epoch: 83, Batch:  226500, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.05%, Time: 3 days, 6:52:58 
+Epoch: 83, Batch:  227000, Train Batch Loss:   0.76, Train Batch Acc:  70.00%, Val Loss:   0.68, Val Acc:  75.84%, Time: 3 days, 7:03:15 
+Epoch: 83, Batch:  227500, Train Batch Loss:   0.66, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.05%, Time: 3 days, 7:13:31 
+Epoch: 83, Batch:  228000, Train Batch Loss:   0.79, Train Batch Acc:  70.19%, Val Loss:   0.68, Val Acc:  76.28%, Time: 3 days, 7:23:47 
+*** Epoch: 83, Train Loss:   0.72, Train Acc:  74.24%, Time: 3 days, 7:23:47
+Epoch: 84
+Epoch: 84, Batch:  228500, Train Batch Loss:   0.81, Train Batch Acc:  70.00%, Val Loss:   0.69, Val Acc:  76.01%, Time: 3 days, 7:34:04 
+Epoch: 84, Batch:  229000, Train Batch Loss:   0.68, Train Batch Acc:  78.00%, Val Loss:   0.69, Val Acc:  75.92%, Time: 3 days, 7:44:20 
+Epoch: 84, Batch:  229500, Train Batch Loss:   0.74, Train Batch Acc:  70.00%, Val Loss:   0.69, Val Acc:  75.94%, Time: 3 days, 7:54:36 
+Epoch: 84, Batch:  230000, Train Batch Loss:   0.79, Train Batch Acc:  72.00%, Val Loss:   0.69, Val Acc:  76.10%, Time: 3 days, 8:06:02 
+Epoch: 84, Batch:  230500, Train Batch Loss:   0.77, Train Batch Acc:  71.50%, Val Loss:   0.69, Val Acc:  76.04%, Time: 3 days, 8:18:37 
+*** Epoch: 84, Train Loss:   0.72, Train Acc:  74.26%, Time: 3 days, 8:24:30
+Epoch: 85
+Epoch: 85, Batch:  231000, Train Batch Loss:    0.7, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.35%, Time: 3 days, 8:31:07 
+Epoch: 85, Batch:  231500, Train Batch Loss:   0.81, Train Batch Acc:  69.50%, Val Loss:   0.69, Val Acc:  76.58%, Time: 3 days, 8:43:09 
+Epoch: 85, Batch:  232000, Train Batch Loss:    0.7, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.58%, Time: 3 days, 8:53:28 
+Epoch: 85, Batch:  232500, Train Batch Loss:    0.7, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.45%, Time: 3 days, 9:03:45 
+Epoch: 85, Batch:  233000, Train Batch Loss:   0.78, Train Batch Acc:  70.50%, Val Loss:   0.68, Val Acc:  76.12%, Time: 3 days, 9:14:06 
+*** Epoch: 85, Train Loss:   0.72, Train Acc:  74.27%, Time: 3 days, 9:23:49
+Epoch: 86
+Epoch: 86, Batch:  233500, Train Batch Loss:    0.7, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  75.89%, Time: 3 days, 9:24:25 
+Epoch: 86, Batch:  234000, Train Batch Loss:   0.66, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.03%, Time: 3 days, 9:34:43 
+Epoch: 86, Batch:  234500, Train Batch Loss:   0.81, Train Batch Acc:  67.50%, Val Loss:   0.69, Val Acc:  76.01%, Time: 3 days, 9:45:02 
+Epoch: 86, Batch:  235000, Train Batch Loss:   0.78, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.55%, Time: 3 days, 9:55:20 
+Epoch: 86, Batch:  235500, Train Batch Loss:    0.7, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.49%, Time: 3 days, 10:05:38 
+Epoch: 86, Batch:  236000, Train Batch Loss:    0.7, Train Batch Acc:  75.00%, Val Loss:   0.69, Val Acc:  76.18%, Time: 3 days, 10:15:56 
+*** Epoch: 86, Train Loss:   0.72, Train Acc:  74.24%, Time: 3 days, 10:20:40
+Epoch: 87
+Epoch: 87, Batch:  236500, Train Batch Loss:   0.83, Train Batch Acc:  69.50%, Val Loss:   0.68, Val Acc:  76.51%, Time: 3 days, 10:26:14 
+Epoch: 87, Batch:  237000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.31%, Time: 3 days, 10:36:33 
+Epoch: 87, Batch:  237500, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.36%, Time: 3 days, 10:46:51 
+Epoch: 87, Batch:  238000, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.68%, Time: 3 days, 10:57:09 
+Epoch: 87, Batch:  238500, Train Batch Loss:   0.64, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.21%, Time: 3 days, 11:07:27 
+*** Epoch: 87, Train Loss:   0.72, Train Acc:  74.29%, Time: 3 days, 11:17:03
+Epoch: 88
+Epoch: 88, Batch:  239000, Train Batch Loss:    0.7, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.32%, Time: 3 days, 11:17:46 
+Epoch: 88, Batch:  239500, Train Batch Loss:    0.7, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.57%, Time: 3 days, 11:28:05 
+Epoch: 88, Batch:  240000, Train Batch Loss:   0.66, Train Batch Acc:  79.50%, Val Loss:    0.7, Val Acc:  75.83%, Time: 3 days, 11:38:23 
+Epoch: 88, Batch:  240500, Train Batch Loss:   0.67, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  76.03%, Time: 3 days, 11:48:41 
+Epoch: 88, Batch:  241000, Train Batch Loss:   0.79, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.51%, Time: 3 days, 11:58:59 
+Epoch: 88, Batch:  241500, Train Batch Loss:   0.68, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.26%, Time: 3 days, 12:09:17 
+*** Epoch: 88, Train Loss:   0.72, Train Acc:  74.33%, Time: 3 days, 12:13:54
+Epoch: 89
+Epoch: 89, Batch:  242000, Train Batch Loss:   0.78, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.19%, Time: 3 days, 12:19:36 
+Epoch: 89, Batch:  242500, Train Batch Loss:   0.72, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.72%, Time: 3 days, 12:29:56 *
+Epoch: 89, Batch:  243000, Train Batch Loss:   0.74, Train Batch Acc:  70.50%, Val Loss:   0.68, Val Acc:  76.28%, Time: 3 days, 12:40:14 
+Epoch: 89, Batch:  243500, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  75.96%, Time: 3 days, 12:50:31 
+Epoch: 89, Batch:  244000, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.20%, Time: 3 days, 13:00:50 
+*** Epoch: 89, Train Loss:   0.72, Train Acc:  74.34%, Time: 3 days, 13:10:18
+Epoch: 90
+Epoch: 90, Batch:  244500, Train Batch Loss:   0.74, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.11%, Time: 3 days, 13:11:08 
+Epoch: 90, Batch:  245000, Train Batch Loss:   0.67, Train Batch Acc:  79.00%, Val Loss:   0.69, Val Acc:  76.29%, Time: 3 days, 13:21:27 
+Epoch: 90, Batch:  245500, Train Batch Loss:   0.68, Train Batch Acc:  77.50%, Val Loss:   0.76, Val Acc:  71.45%, Time: 3 days, 13:31:45 
+Epoch: 90, Batch:  246000, Train Batch Loss:   0.67, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.73%, Time: 3 days, 13:42:05 *
+Epoch: 90, Batch:  246500, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.54%, Time: 3 days, 13:52:23 
+Epoch: 90, Batch:  247000, Train Batch Loss:   0.66, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.62%, Time: 3 days, 14:02:41 
+*** Epoch: 90, Train Loss:   0.72, Train Acc:  74.34%, Time: 3 days, 14:07:27
+Epoch: 91
+Epoch: 91, Batch:  247500, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.53%, Time: 3 days, 14:14:15 
+Epoch: 91, Batch:  248000, Train Batch Loss:    0.7, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.64%, Time: 3 days, 14:26:46 
+Epoch: 91, Batch:  248500, Train Batch Loss:   0.69, Train Batch Acc:  80.00%, Val Loss:   0.68, Val Acc:  76.76%, Time: 3 days, 14:39:19 *
+Epoch: 91, Batch:  249000, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.33%, Time: 3 days, 14:51:20 
+Epoch: 91, Batch:  249500, Train Batch Loss:   0.62, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.57%, Time: 3 days, 15:02:12 
+*** Epoch: 91, Train Loss:   0.72, Train Acc:  74.39%, Time: 3 days, 15:11:36
+Epoch: 92
+Epoch: 92, Batch:  250000, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.60%, Time: 3 days, 15:12:34 
+Epoch: 92, Batch:  250500, Train Batch Loss:   0.69, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.20%, Time: 3 days, 15:23:03 
+Epoch: 92, Batch:  251000, Train Batch Loss:   0.79, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.63%, Time: 3 days, 15:33:18 
+Epoch: 92, Batch:  251500, Train Batch Loss:   0.67, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.28%, Time: 3 days, 15:43:34 
+Epoch: 92, Batch:  252000, Train Batch Loss:   0.67, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.23%, Time: 3 days, 15:53:49 
+Epoch: 92, Batch:  252500, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:    0.7, Val Acc:  75.54%, Time: 3 days, 16:04:04 
+*** Epoch: 92, Train Loss:   0.72, Train Acc:  74.39%, Time: 3 days, 16:08:25
+Epoch: 93
+Epoch: 93, Batch:  253000, Train Batch Loss:   0.71, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.24%, Time: 3 days, 16:14:19 
+Epoch: 93, Batch:  253500, Train Batch Loss:   0.76, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.62%, Time: 3 days, 16:24:34 
+Epoch: 93, Batch:  254000, Train Batch Loss:    0.7, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.66%, Time: 3 days, 16:34:50 
+Epoch: 93, Batch:  254500, Train Batch Loss:   0.76, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.26%, Time: 3 days, 16:45:05 
+Epoch: 93, Batch:  255000, Train Batch Loss:   0.64, Train Batch Acc:  82.00%, Val Loss:   0.68, Val Acc:  76.23%, Time: 3 days, 16:55:20 
+*** Epoch: 93, Train Loss:   0.72, Train Acc:  74.37%, Time: 3 days, 17:04:32
+Epoch: 94
+Epoch: 94, Batch:  255500, Train Batch Loss:   0.76, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.33%, Time: 3 days, 17:05:36 
+Epoch: 94, Batch:  256000, Train Batch Loss:   0.66, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  76.35%, Time: 3 days, 17:15:51 
+Epoch: 94, Batch:  256500, Train Batch Loss:   0.63, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.17%, Time: 3 days, 17:26:06 
+Epoch: 94, Batch:  257000, Train Batch Loss:   0.76, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.34%, Time: 3 days, 17:36:22 
+Epoch: 94, Batch:  257500, Train Batch Loss:   0.72, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.34%, Time: 3 days, 17:46:37 
+Epoch: 94, Batch:  258000, Train Batch Loss:   0.68, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.16%, Time: 3 days, 17:56:52 
+*** Epoch: 94, Train Loss:   0.72, Train Acc:  74.46%, Time: 3 days, 18:01:07
+Epoch: 95
+Epoch: 95, Batch:  258500, Train Batch Loss:   0.71, Train Batch Acc:  73.50%, Val Loss:    0.7, Val Acc:  75.90%, Time: 3 days, 18:07:07 
+Epoch: 95, Batch:  259000, Train Batch Loss:   0.66, Train Batch Acc:  77.50%, Val Loss:   0.69, Val Acc:  76.09%, Time: 3 days, 18:17:22 
+Epoch: 95, Batch:  259500, Train Batch Loss:   0.63, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.54%, Time: 3 days, 18:27:37 
+Epoch: 95, Batch:  260000, Train Batch Loss:   0.75, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  76.25%, Time: 3 days, 18:37:52 
+Epoch: 95, Batch:  260500, Train Batch Loss:   0.76, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.50%, Time: 3 days, 18:48:07 
+*** Epoch: 95, Train Loss:   0.72, Train Acc:  74.51%, Time: 3 days, 18:57:11
+Epoch: 96
+Epoch: 96, Batch:  261000, Train Batch Loss:   0.77, Train Batch Acc:  72.50%, Val Loss:    0.7, Val Acc:  75.52%, Time: 3 days, 18:58:22 
+Epoch: 96, Batch:  261500, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.48%, Time: 3 days, 19:08:38 
+Epoch: 96, Batch:  262000, Train Batch Loss:   0.66, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.12%, Time: 3 days, 19:18:53 
+Epoch: 96, Batch:  262500, Train Batch Loss:   0.66, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.62%, Time: 3 days, 19:29:08 
+Epoch: 96, Batch:  263000, Train Batch Loss:   0.63, Train Batch Acc:  80.00%, Val Loss:   0.69, Val Acc:  75.90%, Time: 3 days, 19:39:24 
+Epoch: 96, Batch:  263500, Train Batch Loss:   0.62, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.45%, Time: 3 days, 19:49:41 
+*** Epoch: 96, Train Loss:   0.72, Train Acc:  74.42%, Time: 3 days, 19:53:48
+Epoch: 97
+Epoch: 97, Batch:  264000, Train Batch Loss:   0.73, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.33%, Time: 3 days, 19:59:57 
+Epoch: 97, Batch:  264500, Train Batch Loss:   0.68, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.68%, Time: 3 days, 20:10:14 
+Epoch: 97, Batch:  265000, Train Batch Loss:   0.68, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.14%, Time: 3 days, 20:20:30 
+Epoch: 97, Batch:  265500, Train Batch Loss:   0.78, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.22%, Time: 3 days, 20:30:46 
+Epoch: 97, Batch:  266000, Train Batch Loss:   0.81, Train Batch Acc:  69.50%, Val Loss:   0.68, Val Acc:  76.18%, Time: 3 days, 20:41:02 
+*** Epoch: 97, Train Loss:   0.72, Train Acc:  74.48%, Time: 3 days, 20:50:00
+Epoch: 98
+Epoch: 98, Batch:  266500, Train Batch Loss:   0.71, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.26%, Time: 3 days, 20:51:18 
+Epoch: 98, Batch:  267000, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.66%, Time: 3 days, 21:01:35 
+Epoch: 98, Batch:  267500, Train Batch Loss:   0.71, Train Batch Acc:  78.00%, Val Loss:   0.69, Val Acc:  76.08%, Time: 3 days, 21:11:51 
+Epoch: 98, Batch:  268000, Train Batch Loss:   0.74, Train Batch Acc:  73.50%, Val Loss:   0.69, Val Acc:  76.42%, Time: 3 days, 21:22:07 
+Epoch: 98, Batch:  268500, Train Batch Loss:   0.76, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.52%, Time: 3 days, 21:32:23 
+Epoch: 98, Batch:  269000, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.62%, Time: 3 days, 21:42:39 
+*** Epoch: 98, Train Loss:   0.72, Train Acc:  74.46%, Time: 3 days, 21:46:40
+Epoch: 99
+Epoch: 99, Batch:  269500, Train Batch Loss:   0.74, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.51%, Time: 3 days, 21:52:56 
+Epoch: 99, Batch:  270000, Train Batch Loss:   0.64, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.26%, Time: 3 days, 22:03:13 
+Epoch: 99, Batch:  270500, Train Batch Loss:    0.8, Train Batch Acc:  72.50%, Val Loss:   0.69, Val Acc:  76.08%, Time: 3 days, 23:13:31 
+Epoch: 99, Batch:  271000, Train Batch Loss:   0.67, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.65%, Time: 3 days, 23:23:48 
+Epoch: 99, Batch:  271500, Train Batch Loss:   0.82, Train Batch Acc:  68.00%, Val Loss:   0.68, Val Acc:  76.47%, Time: 3 days, 23:34:04 
+*** Epoch: 99, Train Loss:   0.72, Train Acc:  74.50%, Time: 3 days, 23:42:55
+Epoch: 100
+Epoch: 100, Batch:  272000, Train Batch Loss:   0.65, Train Batch Acc:  79.00%, Val Loss:    0.7, Val Acc:  75.74%, Time: 3 days, 23:44:21 
+Epoch: 100, Batch:  272500, Train Batch Loss:   0.76, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.66%, Time: 3 days, 23:54:37 
+Epoch: 100, Batch:  273000, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.74%, Time: 4 days, 0:04:53 
+Epoch: 100, Batch:  273500, Train Batch Loss:   0.75, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.82%, Time: 4 days, 0:15:11 *
+Epoch: 100, Batch:  274000, Train Batch Loss:   0.76, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.77%, Time: 4 days, 0:25:27 
+Epoch: 100, Batch:  274500, Train Batch Loss:   0.69, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  76.75%, Time: 4 days, 0:35:43 
+*** Epoch: 100, Train Loss:   0.72, Train Acc:  74.48%, Time: 4 days, 0:39:37
+Epoch: 101
+Epoch: 101, Batch:  275000, Train Batch Loss:   0.81, Train Batch Acc:  72.50%, Val Loss:   0.69, Val Acc:  76.18%, Time: 4 days, 0:46:00 
+Epoch: 101, Batch:  275500, Train Batch Loss:   0.71, Train Batch Acc:  69.00%, Val Loss:   0.68, Val Acc:  76.37%, Time: 4 days, 0:56:16 
+Epoch: 101, Batch:  276000, Train Batch Loss:    0.7, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.35%, Time: 4 days, 1:06:33 
+Epoch: 101, Batch:  276500, Train Batch Loss:   0.62, Train Batch Acc:  80.50%, Val Loss:   0.67, Val Acc:  76.64%, Time: 4 days, 1:16:49 
+Epoch: 101, Batch:  277000, Train Batch Loss:   0.67, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.75%, Time: 4 days, 1:27:05 
+*** Epoch: 101, Train Loss:   0.72, Train Acc:  74.52%, Time: 4 days, 1:35:49
+Epoch: 102
+Epoch: 102, Batch:  277500, Train Batch Loss:   0.81, Train Batch Acc:  69.00%, Val Loss:   0.68, Val Acc:  76.46%, Time: 4 days, 1:37:21 
+Epoch: 102, Batch:  278000, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.41%, Time: 4 days, 1:47:37 
+Epoch: 102, Batch:  278500, Train Batch Loss:    0.7, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  75.94%, Time: 4 days, 1:57:53 
+Epoch: 102, Batch:  279000, Train Batch Loss:   0.77, Train Batch Acc:  71.50%, Val Loss:   0.69, Val Acc:  76.28%, Time: 4 days, 2:08:10 
+Epoch: 102, Batch:  279500, Train Batch Loss:    0.7, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.40%, Time: 4 days, 2:18:26 
+Epoch: 102, Batch:  280000, Train Batch Loss:   0.81, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.52%, Time: 4 days, 2:28:42 
+*** Epoch: 102, Train Loss:   0.72, Train Acc:  74.55%, Time: 4 days, 2:32:29
+Epoch: 103
+Epoch: 103, Batch:  280500, Train Batch Loss:   0.74, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.69%, Time: 4 days, 2:38:59 
+Epoch: 103, Batch:  281000, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.36%, Time: 4 days, 2:49:15 
+Epoch: 103, Batch:  281500, Train Batch Loss:   0.83, Train Batch Acc:  67.50%, Val Loss:   0.68, Val Acc:  76.43%, Time: 4 days, 2:59:31 
+Epoch: 103, Batch:  282000, Train Batch Loss:   0.64, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.59%, Time: 4 days, 3:09:47 
+Epoch: 103, Batch:  282500, Train Batch Loss:   0.77, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.69%, Time: 4 days, 3:20:03 
+*** Epoch: 103, Train Loss:   0.72, Train Acc:  74.57%, Time: 4 days, 3:28:41
+Epoch: 104
+Epoch: 104, Batch:  283000, Train Batch Loss:   0.77, Train Batch Acc:  70.00%, Val Loss:   0.68, Val Acc:  76.76%, Time: 4 days, 3:30:20 
+Epoch: 104, Batch:  283500, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  76.65%, Time: 4 days, 3:40:36 
+Epoch: 104, Batch:  284000, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  76.43%, Time: 4 days, 3:50:53 
+Epoch: 104, Batch:  284500, Train Batch Loss:   0.78, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.47%, Time: 4 days, 4:01:10 
+Epoch: 104, Batch:  285000, Train Batch Loss:   0.73, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.61%, Time: 4 days, 4:11:26 
+Epoch: 104, Batch:  285500, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.70%, Time: 4 days, 4:21:43 
+*** Epoch: 104, Train Loss:   0.72, Train Acc:  74.52%, Time: 4 days, 4:25:23
+Epoch: 105
+Epoch: 105, Batch:  286000, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.64%, Time: 4 days, 4:32:00 
+Epoch: 105, Batch:  286500, Train Batch Loss:   0.82, Train Batch Acc:  69.00%, Val Loss:   0.68, Val Acc:  76.70%, Time: 4 days, 4:42:16 
+Epoch: 105, Batch:  287000, Train Batch Loss:    0.8, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.71%, Time: 4 days, 4:52:33 
+Epoch: 105, Batch:  287500, Train Batch Loss:   0.81, Train Batch Acc:  68.50%, Val Loss:   0.69, Val Acc:  76.28%, Time: 4 days, 5:02:49 
+Epoch: 105, Batch:  288000, Train Batch Loss:   0.81, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.11%, Time: 4 days, 5:13:06 
+*** Epoch: 105, Train Loss:   0.72, Train Acc:  74.64%, Time: 4 days, 5:21:36
+Epoch: 106
+Epoch: 106, Batch:  288500, Train Batch Loss:   0.83, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.48%, Time: 4 days, 5:23:22 
+Epoch: 106, Batch:  289000, Train Batch Loss:   0.81, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.71%, Time: 4 days, 5:33:39 
+Epoch: 106, Batch:  289500, Train Batch Loss:    0.8, Train Batch Acc:  70.50%, Val Loss:   0.68, Val Acc:  76.64%, Time: 4 days, 5:43:55 
+Epoch: 106, Batch:  290000, Train Batch Loss:   0.68, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.69%, Time: 4 days, 5:54:11 
+Epoch: 106, Batch:  290500, Train Batch Loss:   0.75, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.85%, Time: 4 days, 6:04:29 *
+Epoch: 106, Batch:  291000, Train Batch Loss:   0.71, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.77%, Time: 4 days, 6:14:46 
+*** Epoch: 106, Train Loss:   0.72, Train Acc:  74.63%, Time: 4 days, 6:18:18
+Epoch: 107
+Epoch: 107, Batch:  291500, Train Batch Loss:   0.72, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.56%, Time: 4 days, 6:25:03 
+Epoch: 107, Batch:  292000, Train Batch Loss:   0.75, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.95%, Time: 4 days, 6:35:21 *
+Epoch: 107, Batch:  292500, Train Batch Loss:   0.76, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.82%, Time: 4 days, 6:45:38 
+Epoch: 107, Batch:  293000, Train Batch Loss:   0.73, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.36%, Time: 4 days, 6:55:55 
+Epoch: 107, Batch:  293500, Train Batch Loss:   0.67, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.44%, Time: 4 days, 7:06:11 
+*** Epoch: 107, Train Loss:   0.72, Train Acc:  74.65%, Time: 4 days, 7:14:34
+Epoch: 108
+Epoch: 108, Batch:  294000, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:   0.69, Val Acc:  76.14%, Time: 4 days, 7:16:28 
+Epoch: 108, Batch:  294500, Train Batch Loss:   0.65, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.25%, Time: 4 days, 7:26:45 
+Epoch: 108, Batch:  295000, Train Batch Loss:   0.71, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.71%, Time: 4 days, 7:37:01 
+Epoch: 108, Batch:  295500, Train Batch Loss:   0.67, Train Batch Acc:  78.50%, Val Loss:   0.69, Val Acc:  76.39%, Time: 4 days, 7:47:18 
+Epoch: 108, Batch:  296000, Train Batch Loss:   0.67, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.71%, Time: 4 days, 7:57:34 
+Epoch: 108, Batch:  296500, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.50%, Time: 4 days, 8:07:50 
+*** Epoch: 108, Train Loss:   0.72, Train Acc:  74.60%, Time: 4 days, 8:11:16
+Epoch: 109
+Epoch: 109, Batch:  297000, Train Batch Loss:   0.75, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.33%, Time: 4 days, 8:18:08 
+Epoch: 109, Batch:  297500, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.60%, Time: 4 days, 8:28:24 
+Epoch: 109, Batch:  298000, Train Batch Loss:   0.75, Train Batch Acc:  70.00%, Val Loss:   0.68, Val Acc:  76.66%, Time: 4 days, 8:38:41 
+Epoch: 109, Batch:  298500, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  76.25%, Time: 4 days, 8:48:57 
+Epoch: 109, Batch:  299000, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  76.94%, Time: 4 days, 8:59:14 
+*** Epoch: 109, Train Loss:   0.72, Train Acc:  74.63%, Time: 4 days, 9:07:30
+Epoch: 110
+Epoch: 110, Batch:  299500, Train Batch Loss:   0.67, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.73%, Time: 4 days, 9:09:31 
+Epoch: 110, Batch:  300000, Train Batch Loss:   0.77, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  76.92%, Time: 4 days, 9:19:49 
+Epoch: 110, Batch:  300500, Train Batch Loss:   0.76, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.39%, Time: 4 days, 9:30:05 
+Epoch: 110, Batch:  301000, Train Batch Loss:   0.68, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.20%, Time: 4 days, 9:40:21 
+Epoch: 110, Batch:  301500, Train Batch Loss:   0.75, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.59%, Time: 4 days, 9:50:37 
+Epoch: 110, Batch:  302000, Train Batch Loss:   0.67, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.82%, Time: 4 days, 10:00:54 
+*** Epoch: 110, Train Loss:   0.72, Train Acc:  74.77%, Time: 4 days, 10:04:13
+Epoch: 111
+Epoch: 111, Batch:  302500, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.69, Val Acc:  76.17%, Time: 4 days, 10:11:11 
+Epoch: 111, Batch:  303000, Train Batch Loss:   0.81, Train Batch Acc:  68.00%, Val Loss:   0.68, Val Acc:  76.59%, Time: 4 days, 10:21:28 
+Epoch: 111, Batch:  303500, Train Batch Loss:   0.65, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.73%, Time: 4 days, 10:31:45 
+Epoch: 111, Batch:  304000, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.53%, Time: 4 days, 10:42:01 
+Epoch: 111, Batch:  304500, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.68%, Time: 4 days, 10:52:18 
+*** Epoch: 111, Train Loss:   0.71, Train Acc:  74.68%, Time: 4 days, 11:00:27
+Epoch: 112
+Epoch: 112, Batch:  305000, Train Batch Loss:   0.63, Train Batch Acc:  79.50%, Val Loss:   0.67, Val Acc:  76.74%, Time: 4 days, 11:02:35 
+Epoch: 112, Batch:  305500, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.76%, Time: 4 days, 11:12:52 
+Epoch: 112, Batch:  306000, Train Batch Loss:   0.63, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  75.98%, Time: 4 days, 11:23:08 
+Epoch: 112, Batch:  306500, Train Batch Loss:   0.71, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.81%, Time: 4 days, 11:33:25 
+Epoch: 112, Batch:  307000, Train Batch Loss:   0.67, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.60%, Time: 4 days, 11:43:42 
+Epoch: 112, Batch:  307500, Train Batch Loss:   0.75, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.96%, Time: 4 days, 11:54:01 *
+*** Epoch: 112, Train Loss:   0.71, Train Acc:  74.72%, Time: 4 days, 11:57:12
+Epoch: 113
+Epoch: 113, Batch:  308000, Train Batch Loss:   0.64, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.74%, Time: 4 days, 12:04:18 
+Epoch: 113, Batch:  308500, Train Batch Loss:   0.67, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.84%, Time: 4 days, 12:14:34 
+Epoch: 113, Batch:  309000, Train Batch Loss:    0.7, Train Batch Acc:  79.50%, Val Loss:   0.68, Val Acc:  76.76%, Time: 4 days, 12:24:51 
+Epoch: 113, Batch:  309500, Train Batch Loss:   0.77, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.73%, Time: 4 days, 12:35:08 
+Epoch: 113, Batch:  310000, Train Batch Loss:   0.86, Train Batch Acc:  68.50%, Val Loss:   0.68, Val Acc:  77.05%, Time: 4 days, 12:45:27 *
+*** Epoch: 113, Train Loss:   0.72, Train Acc:  74.68%, Time: 4 days, 12:53:29
+Epoch: 114
+Epoch: 114, Batch:  310500, Train Batch Loss:    0.7, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  76.53%, Time: 4 days, 12:55:44 
+Epoch: 114, Batch:  311000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.58%, Time: 4 days, 13:06:01 
+Epoch: 114, Batch:  311500, Train Batch Loss:   0.71, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  76.24%, Time: 4 days, 13:16:18 
+Epoch: 114, Batch:  312000, Train Batch Loss:   0.68, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.80%, Time: 4 days, 13:26:34 
+Epoch: 114, Batch:  312500, Train Batch Loss:    0.7, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  77.14%, Time: 4 days, 13:36:53 *
+Epoch: 114, Batch:  313000, Train Batch Loss:   0.72, Train Batch Acc:  70.00%, Val Loss:   0.68, Val Acc:  76.79%, Time: 4 days, 13:47:09 
+*** Epoch: 114, Train Loss:   0.71, Train Acc:  74.71%, Time: 4 days, 13:50:14
+Epoch: 115
+Epoch: 115, Batch:  313500, Train Batch Loss:   0.76, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.57%, Time: 4 days, 13:57:26 
+Epoch: 115, Batch:  314000, Train Batch Loss:   0.76, Train Batch Acc:  69.00%, Val Loss:   0.68, Val Acc:  76.89%, Time: 4 days, 14:08:04 
+Epoch: 115, Batch:  314500, Train Batch Loss:    0.7, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.97%, Time: 4 days, 14:18:46 
+Epoch: 115, Batch:  315000, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.37%, Time: 4 days, 14:29:00 
+Epoch: 115, Batch:  315500, Train Batch Loss:   0.77, Train Batch Acc:  69.50%, Val Loss:   0.68, Val Acc:  76.91%, Time: 4 days, 14:39:14 
+*** Epoch: 115, Train Loss:   0.71, Train Acc:  74.80%, Time: 4 days, 14:47:08
+Epoch: 116
+Epoch: 116, Batch:  316000, Train Batch Loss:   0.71, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  77.01%, Time: 4 days, 14:49:31 
+Epoch: 116, Batch:  316500, Train Batch Loss:   0.71, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.52%, Time: 4 days, 14:59:46 
+Epoch: 116, Batch:  317000, Train Batch Loss:   0.65, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.45%, Time: 4 days, 15:10:00 
+Epoch: 116, Batch:  317500, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  77.16%, Time: 4 days, 15:20:16 *
+Epoch: 116, Batch:  318000, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.98%, Time: 4 days, 15:30:30 
+Epoch: 116, Batch:  318500, Train Batch Loss:   0.68, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.78%, Time: 4 days, 15:40:44 
+*** Epoch: 116, Train Loss:   0.71, Train Acc:  74.79%, Time: 4 days, 15:43:41
+Epoch: 117
+Epoch: 117, Batch:  319000, Train Batch Loss:   0.79, Train Batch Acc:  70.50%, Val Loss:   0.68, Val Acc:  76.81%, Time: 4 days, 15:50:59 
+Epoch: 117, Batch:  319500, Train Batch Loss:   0.68, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.88%, Time: 4 days, 16:01:13 
+Epoch: 117, Batch:  320000, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.95%, Time: 4 days, 16:11:27 
+Epoch: 117, Batch:  320500, Train Batch Loss:    0.7, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.74%, Time: 4 days, 16:21:50 
+Epoch: 117, Batch:  321000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.69, Val Acc:  76.21%, Time: 4 days, 16:32:07 
+*** Epoch: 117, Train Loss:   0.71, Train Acc:  74.78%, Time: 4 days, 16:39:53
+Epoch: 118
+Epoch: 118, Batch:  321500, Train Batch Loss:   0.69, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  76.75%, Time: 4 days, 16:42:22 
+Epoch: 118, Batch:  322000, Train Batch Loss:   0.68, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.84%, Time: 4 days, 16:52:38 
+Epoch: 118, Batch:  322500, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  76.79%, Time: 4 days, 17:03:04 
+Epoch: 118, Batch:  323000, Train Batch Loss:   0.74, Train Batch Acc:  71.00%, Val Loss:   0.69, Val Acc:  76.31%, Time: 4 days, 16:14:57 
+Epoch: 118, Batch:  323500, Train Batch Loss:   0.69, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.65%, Time: 4 days, 16:27:23 
+Epoch: 118, Batch:  324000, Train Batch Loss:   0.71, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  77.09%, Time: 4 days, 16:39:48 
+*** Epoch: 118, Train Loss:   0.71, Train Acc:  74.78%, Time: 4 days, 16:43:15
+Epoch: 119
+Epoch: 119, Batch:  324500, Train Batch Loss:   0.65, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.70%, Time: 4 days, 16:52:15 
+Epoch: 119, Batch:  325000, Train Batch Loss:   0.74, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.34%, Time: 4 days, 17:04:59 
+Epoch: 119, Batch:  325500, Train Batch Loss:   0.66, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.87%, Time: 4 days, 17:17:45 
+Epoch: 119, Batch:  326000, Train Batch Loss:   0.82, Train Batch Acc:  69.00%, Val Loss:   0.68, Val Acc:  76.68%, Time: 4 days, 17:28:41 
+Epoch: 119, Batch:  326500, Train Batch Loss:   0.74, Train Batch Acc:  70.50%, Val Loss:   0.68, Val Acc:  76.79%, Time: 4 days, 17:39:09 
+*** Epoch: 119, Train Loss:   0.71, Train Acc:  74.74%, Time: 4 days, 17:46:58
+Epoch: 120
+Epoch: 120, Batch:  327000, Train Batch Loss:   0.78, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  76.77%, Time: 4 days, 17:49:40 
+Epoch: 120, Batch:  327500, Train Batch Loss:   0.73, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  76.84%, Time: 4 days, 18:00:46 
+Epoch: 120, Batch:  328000, Train Batch Loss:   0.85, Train Batch Acc:  68.00%, Val Loss:   0.68, Val Acc:  76.89%, Time: 4 days, 18:12:04 
+Epoch: 120, Batch:  328500, Train Batch Loss:   0.66, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.51%, Time: 4 days, 18:22:33 
+Epoch: 120, Batch:  329000, Train Batch Loss:   0.71, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  76.82%, Time: 4 days, 18:32:47 
+Epoch: 120, Batch:  329500, Train Batch Loss:   0.79, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.73%, Time: 4 days, 18:43:02 
+*** Epoch: 120, Train Loss:   0.71, Train Acc:  74.82%, Time: 4 days, 18:45:45
+Epoch: 121
+Epoch: 121, Batch:  330000, Train Batch Loss:   0.73, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.52%, Time: 4 days, 18:53:17 
+Epoch: 121, Batch:  330500, Train Batch Loss:   0.66, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.74%, Time: 4 days, 19:03:32 
+Epoch: 121, Batch:  331000, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.69, Val Acc:  76.35%, Time: 4 days, 19:13:46 
+Epoch: 121, Batch:  331500, Train Batch Loss:   0.83, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.60%, Time: 4 days, 19:24:01 
+Epoch: 121, Batch:  332000, Train Batch Loss:   0.64, Train Batch Acc:  80.00%, Val Loss:   0.68, Val Acc:  76.66%, Time: 4 days, 19:34:15 
+*** Epoch: 121, Train Loss:   0.71, Train Acc:  74.82%, Time: 4 days, 19:41:48
+Epoch: 122
+Epoch: 122, Batch:  332500, Train Batch Loss:   0.73, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.79%, Time: 4 days, 19:44:30 
+Epoch: 122, Batch:  333000, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  77.10%, Time: 4 days, 19:54:45 
+Epoch: 122, Batch:  333500, Train Batch Loss:   0.66, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.68%, Time: 4 days, 20:04:59 
+Epoch: 122, Batch:  334000, Train Batch Loss:   0.76, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.97%, Time: 4 days, 20:15:14 
+Epoch: 122, Batch:  334500, Train Batch Loss:   0.61, Train Batch Acc:  81.00%, Val Loss:   0.68, Val Acc:  76.70%, Time: 4 days, 20:25:28 
+Epoch: 122, Batch:  335000, Train Batch Loss:   0.67, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.81%, Time: 4 days, 20:35:42 
+*** Epoch: 122, Train Loss:   0.71, Train Acc:  74.76%, Time: 4 days, 20:38:18
+Epoch: 123
+Epoch: 123, Batch:  335500, Train Batch Loss:   0.82, Train Batch Acc:  68.00%, Val Loss:   0.67, Val Acc:  77.27%, Time: 4 days, 20:45:59 *
+Epoch: 123, Batch:  336000, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.86%, Time: 4 days, 20:56:13 
+Epoch: 123, Batch:  336500, Train Batch Loss:   0.68, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.96%, Time: 4 days, 21:06:28 
+Epoch: 123, Batch:  337000, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  76.96%, Time: 4 days, 21:16:43 
+Epoch: 123, Batch:  337500, Train Batch Loss:   0.66, Train Batch Acc:  80.50%, Val Loss:   0.68, Val Acc:  76.87%, Time: 4 days, 21:26:58 
+*** Epoch: 123, Train Loss:   0.71, Train Acc:  74.87%, Time: 4 days, 21:34:24
+Epoch: 124
+Epoch: 124, Batch:  338000, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.76%, Time: 4 days, 21:37:13 
+Epoch: 124, Batch:  338500, Train Batch Loss:   0.65, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.79%, Time: 4 days, 21:47:28 
+Epoch: 124, Batch:  339000, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  76.15%, Time: 4 days, 21:57:42 
+Epoch: 124, Batch:  339500, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.70%, Time: 4 days, 22:07:57 
+Epoch: 124, Batch:  340000, Train Batch Loss:   0.69, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  77.11%, Time: 4 days, 22:18:12 
+Epoch: 124, Batch:  340500, Train Batch Loss:   0.66, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  76.89%, Time: 4 days, 22:28:26 
+*** Epoch: 124, Train Loss:   0.71, Train Acc:  74.84%, Time: 4 days, 22:30:55
+Epoch: 125
+Epoch: 125, Batch:  341000, Train Batch Loss:   0.75, Train Batch Acc:  71.00%, Val Loss:   0.67, Val Acc:  77.16%, Time: 4 days, 22:38:41 
+Epoch: 125, Batch:  341500, Train Batch Loss:    0.7, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.74%, Time: 4 days, 22:48:56 
+Epoch: 125, Batch:  342000, Train Batch Loss:   0.78, Train Batch Acc:  69.50%, Val Loss:   0.67, Val Acc:  77.16%, Time: 4 days, 22:59:11 
+Epoch: 125, Batch:  342500, Train Batch Loss:   0.73, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.47%, Time: 4 days, 23:09:25 
+Epoch: 125, Batch:  343000, Train Batch Loss:   0.67, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.91%, Time: 4 days, 23:19:40 
+*** Epoch: 125, Train Loss:   0.71, Train Acc:  74.90%, Time: 4 days, 23:26:58
+Epoch: 126
+Epoch: 126, Batch:  343500, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  76.47%, Time: 4 days, 23:29:55 
+Epoch: 126, Batch:  344000, Train Batch Loss:   0.64, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.42%, Time: 4 days, 23:40:09 
+Epoch: 126, Batch:  344500, Train Batch Loss:   0.78, Train Batch Acc:  67.50%, Val Loss:   0.68, Val Acc:  76.72%, Time: 4 days, 23:50:24 
+Epoch: 126, Batch:  345000, Train Batch Loss:    0.7, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.41%, Time: 5 days, 0:00:39 
+Epoch: 126, Batch:  345500, Train Batch Loss:    0.7, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.45%, Time: 5 days, 0:10:54 
+Epoch: 126, Batch:  346000, Train Batch Loss:   0.79, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  76.97%, Time: 5 days, 0:21:09 
+*** Epoch: 126, Train Loss:   0.71, Train Acc:  74.84%, Time: 5 days, 0:23:30
+Epoch: 127
+Epoch: 127, Batch:  346500, Train Batch Loss:   0.65, Train Batch Acc:  77.00%, Val Loss:   0.69, Val Acc:  76.42%, Time: 5 days, 0:31:24 
+Epoch: 127, Batch:  347000, Train Batch Loss:   0.71, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.58%, Time: 5 days, 0:41:38 
+Epoch: 127, Batch:  347500, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.72%, Time: 5 days, 0:51:53 
+Epoch: 127, Batch:  348000, Train Batch Loss:   0.71, Train Batch Acc:  77.50%, Val Loss:   0.67, Val Acc:  76.99%, Time: 5 days, 1:02:07 
+Epoch: 127, Batch:  348500, Train Batch Loss:   0.83, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.89%, Time: 5 days, 1:12:22 
+*** Epoch: 127, Train Loss:   0.71, Train Acc:  74.93%, Time: 5 days, 1:19:33
+Epoch: 128
+Epoch: 128, Batch:  349000, Train Batch Loss:    0.6, Train Batch Acc:  83.50%, Val Loss:   0.69, Val Acc:  76.04%, Time: 5 days, 1:22:40 
+Epoch: 128, Batch:  349500, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.97%, Time: 5 days, 1:32:54 
+Epoch: 128, Batch:  350000, Train Batch Loss:   0.68, Train Batch Acc:  77.00%, Val Loss:   0.67, Val Acc:  77.16%, Time: 5 days, 1:43:08 
+Epoch: 128, Batch:  350500, Train Batch Loss:   0.77, Train Batch Acc:  69.50%, Val Loss:   0.67, Val Acc:  77.23%, Time: 5 days, 1:53:23 
+Epoch: 128, Batch:  351000, Train Batch Loss:   0.79, Train Batch Acc:  70.00%, Val Loss:   0.68, Val Acc:  76.69%, Time: 5 days, 2:03:37 
+Epoch: 128, Batch:  351500, Train Batch Loss:   0.76, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.85%, Time: 5 days, 2:13:52 
+*** Epoch: 128, Train Loss:   0.71, Train Acc:  74.90%, Time: 5 days, 2:16:07
+Epoch: 129
+Epoch: 129, Batch:  352000, Train Batch Loss:    0.7, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.82%, Time: 5 days, 2:24:07 
+Epoch: 129, Batch:  352500, Train Batch Loss:   0.77, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.75%, Time: 5 days, 2:34:22 
+Epoch: 129, Batch:  353000, Train Batch Loss:   0.76, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  77.01%, Time: 5 days, 2:44:36 
+Epoch: 129, Batch:  353500, Train Batch Loss:   0.74, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.95%, Time: 5 days, 2:54:51 
+Epoch: 129, Batch:  354000, Train Batch Loss:   0.85, Train Batch Acc:  69.50%, Val Loss:   0.68, Val Acc:  76.73%, Time: 5 days, 3:05:05 
+*** Epoch: 129, Train Loss:   0.71, Train Acc:  74.89%, Time: 5 days, 3:12:09
+Epoch: 130
+Epoch: 130, Batch:  354500, Train Batch Loss:   0.61, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.19%, Time: 5 days, 3:15:20 
+Epoch: 130, Batch:  355000, Train Batch Loss:   0.67, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.83%, Time: 5 days, 3:25:34 
+Epoch: 130, Batch:  355500, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  76.97%, Time: 5 days, 3:35:49 
+Epoch: 130, Batch:  356000, Train Batch Loss:   0.81, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.95%, Time: 5 days, 3:46:03 
+Epoch: 130, Batch:  356500, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  77.11%, Time: 5 days, 3:56:18 
+Epoch: 130, Batch:  357000, Train Batch Loss:    0.8, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  76.66%, Time: 5 days, 4:06:32 
+*** Epoch: 130, Train Loss:   0.71, Train Acc:  74.89%, Time: 5 days, 4:08:40
+Epoch: 131
+Epoch: 131, Batch:  357500, Train Batch Loss:   0.67, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.62%, Time: 5 days, 4:16:47 
+Epoch: 131, Batch:  358000, Train Batch Loss:    0.7, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.86%, Time: 5 days, 4:27:02 
+Epoch: 131, Batch:  358500, Train Batch Loss:   0.77, Train Batch Acc:  69.50%, Val Loss:   0.68, Val Acc:  76.73%, Time: 5 days, 4:37:16 
+Epoch: 131, Batch:  359000, Train Batch Loss:   0.71, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.57%, Time: 5 days, 4:47:30 
+Epoch: 131, Batch:  359500, Train Batch Loss:   0.74, Train Batch Acc:  70.00%, Val Loss:   0.68, Val Acc:  76.78%, Time: 5 days, 4:57:45 
+*** Epoch: 131, Train Loss:   0.71, Train Acc:  74.92%, Time: 5 days, 5:04:42
+Epoch: 132
+Epoch: 132, Batch:  360000, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.55%, Time: 5 days, 5:08:00 
+Epoch: 132, Batch:  360500, Train Batch Loss:   0.66, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.58%, Time: 5 days, 5:18:14 
+Epoch: 132, Batch:  361000, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.92%, Time: 5 days, 5:28:32 
+Epoch: 132, Batch:  361500, Train Batch Loss:   0.78, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.51%, Time: 5 days, 5:38:47 
+Epoch: 132, Batch:  362000, Train Batch Loss:   0.65, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.04%, Time: 5 days, 5:49:01 
+Epoch: 132, Batch:  362500, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.99%, Time: 5 days, 5:59:15 
+*** Epoch: 132, Train Loss:   0.71, Train Acc:  74.98%, Time: 5 days, 6:01:16
+Epoch: 133
+Epoch: 133, Batch:  363000, Train Batch Loss:   0.74, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.93%, Time: 5 days, 6:09:30 
+Epoch: 133, Batch:  363500, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.81%, Time: 5 days, 6:19:45 
+Epoch: 133, Batch:  364000, Train Batch Loss:   0.67, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.76%, Time: 5 days, 6:29:59 
+Epoch: 133, Batch:  364500, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.76%, Time: 5 days, 6:40:13 
+Epoch: 133, Batch:  365000, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.50%, Time: 5 days, 6:50:28 
+*** Epoch: 133, Train Loss:   0.71, Train Acc:  74.90%, Time: 5 days, 6:57:19
+Epoch: 134
+Epoch: 134, Batch:  365500, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  77.06%, Time: 5 days, 7:00:43 
+Epoch: 134, Batch:  366000, Train Batch Loss:   0.69, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.06%, Time: 5 days, 7:10:58 
+Epoch: 134, Batch:  366500, Train Batch Loss:   0.68, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.87%, Time: 5 days, 7:21:13 
+Epoch: 134, Batch:  367000, Train Batch Loss:   0.64, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.97%, Time: 5 days, 7:31:27 
+Epoch: 134, Batch:  367500, Train Batch Loss:   0.67, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.78%, Time: 5 days, 7:41:42 
+Epoch: 134, Batch:  368000, Train Batch Loss:   0.66, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.73%, Time: 5 days, 7:51:56 
+*** Epoch: 134, Train Loss:   0.71, Train Acc:  74.93%, Time: 5 days, 7:53:50
+Epoch: 135
+Epoch: 135, Batch:  368500, Train Batch Loss:   0.73, Train Batch Acc:  73.50%, Val Loss:   0.68, Val Acc:  77.27%, Time: 5 days, 8:02:11 
+Epoch: 135, Batch:  369000, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.81%, Time: 5 days, 8:12:26 
+Epoch: 135, Batch:  369500, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.53%, Time: 5 days, 8:22:40 
+Epoch: 135, Batch:  370000, Train Batch Loss:   0.78, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  76.83%, Time: 5 days, 8:32:55 
+Epoch: 135, Batch:  370500, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.74%, Time: 5 days, 8:43:10 
+*** Epoch: 135, Train Loss:   0.71, Train Acc:  74.99%, Time: 5 days, 8:49:53
+Epoch: 136
+Epoch: 136, Batch:  371000, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.85%, Time: 5 days, 8:53:25 
+Epoch: 136, Batch:  371500, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.67%, Time: 5 days, 9:03:39 
+Epoch: 136, Batch:  372000, Train Batch Loss:   0.73, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.89%, Time: 5 days, 9:13:54 
+Epoch: 136, Batch:  372500, Train Batch Loss:   0.68, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.76%, Time: 5 days, 9:24:08 
+Epoch: 136, Batch:  373000, Train Batch Loss:   0.73, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.09%, Time: 5 days, 9:34:23 
+Epoch: 136, Batch:  373500, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  76.79%, Time: 5 days, 9:44:37 
+*** Epoch: 136, Train Loss:   0.71, Train Acc:  75.03%, Time: 5 days, 9:46:24
+Epoch: 137
+Epoch: 137, Batch:  374000, Train Batch Loss:   0.73, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  77.03%, Time: 5 days, 9:54:52 
+Epoch: 137, Batch:  374500, Train Batch Loss:   0.67, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.08%, Time: 5 days, 10:05:07 
+Epoch: 137, Batch:  375000, Train Batch Loss:   0.81, Train Batch Acc:  70.50%, Val Loss:   0.68, Val Acc:  76.48%, Time: 5 days, 10:15:21 
+Epoch: 137, Batch:  375500, Train Batch Loss:   0.67, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.71%, Time: 5 days, 10:25:35 
+Epoch: 137, Batch:  376000, Train Batch Loss:   0.71, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.77%, Time: 5 days, 10:35:50 
+*** Epoch: 137, Train Loss:   0.71, Train Acc:  75.01%, Time: 5 days, 10:42:26
+Epoch: 138
+Epoch: 138, Batch:  376500, Train Batch Loss:   0.85, Train Batch Acc:  68.00%, Val Loss:   0.67, Val Acc:  77.10%, Time: 5 days, 10:46:04 
+Epoch: 138, Batch:  377000, Train Batch Loss:   0.69, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.83%, Time: 5 days, 10:56:21 
+Epoch: 138, Batch:  377500, Train Batch Loss:   0.72, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.96%, Time: 5 days, 11:06:35 
+Epoch: 138, Batch:  378000, Train Batch Loss:   0.77, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  77.31%, Time: 5 days, 11:16:51 *
+Epoch: 138, Batch:  378500, Train Batch Loss:   0.72, Train Batch Acc:  80.00%, Val Loss:   0.68, Val Acc:  76.44%, Time: 5 days, 11:27:05 
+Epoch: 138, Batch:  379000, Train Batch Loss:   0.78, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  77.15%, Time: 5 days, 11:37:20 
+*** Epoch: 138, Train Loss:   0.71, Train Acc:  74.97%, Time: 5 days, 11:38:59
+Epoch: 139
+Epoch: 139, Batch:  379500, Train Batch Loss:   0.64, Train Batch Acc:  81.50%, Val Loss:   0.68, Val Acc:  76.48%, Time: 5 days, 11:47:34 
+Epoch: 139, Batch:  380000, Train Batch Loss:   0.71, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.70%, Time: 5 days, 11:57:49 
+Epoch: 139, Batch:  380500, Train Batch Loss:   0.74, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  77.05%, Time: 5 days, 12:08:03 
+Epoch: 139, Batch:  381000, Train Batch Loss:    0.6, Train Batch Acc:  79.50%, Val Loss:   0.67, Val Acc:  76.84%, Time: 5 days, 12:18:18 
+Epoch: 139, Batch:  381500, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.94%, Time: 5 days, 12:28:33 
+*** Epoch: 139, Train Loss:   0.71, Train Acc:  75.02%, Time: 5 days, 12:35:02
+Epoch: 140
+Epoch: 140, Batch:  382000, Train Batch Loss:    0.7, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.72%, Time: 5 days, 12:38:48 
+Epoch: 140, Batch:  382500, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  77.06%, Time: 5 days, 12:49:02 
+Epoch: 140, Batch:  383000, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  77.02%, Time: 5 days, 12:59:16 
+Epoch: 140, Batch:  383500, Train Batch Loss:    0.7, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.98%, Time: 5 days, 13:09:30 
+Epoch: 140, Batch:  384000, Train Batch Loss:   0.61, Train Batch Acc:  79.50%, Val Loss:   0.67, Val Acc:  77.29%, Time: 5 days, 13:19:45 
+Epoch: 140, Batch:  384500, Train Batch Loss:   0.77, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  77.09%, Time: 5 days, 13:29:59 
+*** Epoch: 140, Train Loss:   0.71, Train Acc:  75.02%, Time: 5 days, 13:31:31
+Epoch: 141
+Epoch: 141, Batch:  385000, Train Batch Loss:   0.71, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.73%, Time: 5 days, 13:40:14 
+Epoch: 141, Batch:  385500, Train Batch Loss:   0.64, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  76.87%, Time: 5 days, 13:50:28 
+Epoch: 141, Batch:  386000, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.69, Val Acc:  76.69%, Time: 5 days, 14:00:44 
+Epoch: 141, Batch:  386500, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.41%, Time: 5 days, 14:10:59 
+Epoch: 141, Batch:  387000, Train Batch Loss:   0.74, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  77.03%, Time: 5 days, 14:21:13 
+*** Epoch: 141, Train Loss:   0.71, Train Acc:  74.98%, Time: 5 days, 14:27:36
+Epoch: 142
+Epoch: 142, Batch:  387500, Train Batch Loss:   0.69, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.93%, Time: 5 days, 14:31:29 
+Epoch: 142, Batch:  388000, Train Batch Loss:   0.63, Train Batch Acc:  81.50%, Val Loss:   0.67, Val Acc:  77.09%, Time: 5 days, 14:41:43 
+Epoch: 142, Batch:  388500, Train Batch Loss:   0.66, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.38%, Time: 5 days, 14:51:56 
+Epoch: 142, Batch:  389000, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  76.76%, Time: 5 days, 15:02:11 
+Epoch: 142, Batch:  389500, Train Batch Loss:   0.68, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.81%, Time: 5 days, 15:12:26 
+Epoch: 142, Batch:  390000, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.97%, Time: 5 days, 15:22:40 
+*** Epoch: 142, Train Loss:   0.71, Train Acc:  75.01%, Time: 5 days, 15:24:06
+Epoch: 143
+Epoch: 143, Batch:  390500, Train Batch Loss:   0.67, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.92%, Time: 5 days, 15:32:55 
+Epoch: 143, Batch:  391000, Train Batch Loss:   0.71, Train Batch Acc:  77.50%, Val Loss:   0.67, Val Acc:  76.60%, Time: 5 days, 15:43:09 
+Epoch: 143, Batch:  391500, Train Batch Loss:   0.79, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.81%, Time: 5 days, 15:53:23 
+Epoch: 143, Batch:  392000, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  76.67%, Time: 5 days, 16:03:38 
+Epoch: 143, Batch:  392500, Train Batch Loss:   0.81, Train Batch Acc:  70.50%, Val Loss:   0.67, Val Acc:  76.85%, Time: 5 days, 16:13:52 
+*** Epoch: 143, Train Loss:   0.71, Train Acc:  75.03%, Time: 5 days, 16:20:07
+Epoch: 144
+Epoch: 144, Batch:  393000, Train Batch Loss:   0.74, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.85%, Time: 5 days, 16:24:07 
+Epoch: 144, Batch:  393500, Train Batch Loss:   0.74, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.96%, Time: 5 days, 16:34:21 
+Epoch: 144, Batch:  394000, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  76.93%, Time: 5 days, 16:44:36 
+Epoch: 144, Batch:  394500, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  77.02%, Time: 5 days, 16:54:50 
+Epoch: 144, Batch:  395000, Train Batch Loss:   0.69, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.69%, Time: 5 days, 17:05:05 
+Epoch: 144, Batch:  395500, Train Batch Loss:   0.72, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.79%, Time: 5 days, 17:15:20 
+*** Epoch: 144, Train Loss:   0.71, Train Acc:  75.05%, Time: 5 days, 17:16:38
+Epoch: 145
+Epoch: 145, Batch:  396000, Train Batch Loss:   0.67, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.97%, Time: 5 days, 17:25:35 
+Epoch: 145, Batch:  396500, Train Batch Loss:   0.64, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  77.07%, Time: 5 days, 17:35:49 
+Epoch: 145, Batch:  397000, Train Batch Loss:   0.69, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  77.06%, Time: 5 days, 17:46:04 
+Epoch: 145, Batch:  397500, Train Batch Loss:   0.72, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  76.59%, Time: 5 days, 17:56:18 
+Epoch: 145, Batch:  398000, Train Batch Loss:   0.76, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  77.01%, Time: 5 days, 18:06:33 
+*** Epoch: 145, Train Loss:   0.71, Train Acc:  75.05%, Time: 5 days, 18:12:40
+Epoch: 146
+Epoch: 146, Batch:  398500, Train Batch Loss:   0.64, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.18%, Time: 5 days, 18:16:47 
+Epoch: 146, Batch:  399000, Train Batch Loss:   0.76, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  77.00%, Time: 5 days, 18:27:02 
+Epoch: 146, Batch:  399500, Train Batch Loss:   0.74, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.44%, Time: 5 days, 18:37:17 
+Epoch: 146, Batch:  400000, Train Batch Loss:   0.64, Train Batch Acc:  73.00%, Val Loss:   0.69, Val Acc:  76.14%, Time: 5 days, 18:47:31 
+Epoch: 146, Batch:  400500, Train Batch Loss:   0.67, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.70%, Time: 5 days, 18:57:46 
+Epoch: 146, Batch:  401000, Train Batch Loss:   0.68, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.56%, Time: 5 days, 19:08:00 
+*** Epoch: 146, Train Loss:   0.71, Train Acc:  75.09%, Time: 5 days, 19:09:12
+Epoch: 147
+Epoch: 147, Batch:  401500, Train Batch Loss:   0.77, Train Batch Acc:  71.00%, Val Loss:   0.67, Val Acc:  77.05%, Time: 5 days, 19:18:15 
+Epoch: 147, Batch:  402000, Train Batch Loss:   0.75, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.67%, Time: 5 days, 19:28:29 
+Epoch: 147, Batch:  402500, Train Batch Loss:   0.68, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  76.98%, Time: 5 days, 19:38:44 
+Epoch: 147, Batch:  403000, Train Batch Loss:   0.78, Train Batch Acc:  69.50%, Val Loss:   0.67, Val Acc:  77.11%, Time: 5 days, 19:48:58 
+Epoch: 147, Batch:  403500, Train Batch Loss:   0.75, Train Batch Acc:  70.50%, Val Loss:   0.67, Val Acc:  77.24%, Time: 5 days, 19:59:13 
+*** Epoch: 147, Train Loss:   0.71, Train Acc:  75.10%, Time: 5 days, 20:05:14
+Epoch: 148
+Epoch: 148, Batch:  404000, Train Batch Loss:   0.69, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  77.10%, Time: 5 days, 20:09:28 
+Epoch: 148, Batch:  404500, Train Batch Loss:   0.78, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  77.08%, Time: 5 days, 20:19:43 
+Epoch: 148, Batch:  405000, Train Batch Loss:   0.67, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.59%, Time: 5 days, 20:29:57 
+Epoch: 148, Batch:  405500, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.73%, Time: 5 days, 20:40:12 
+Epoch: 148, Batch:  406000, Train Batch Loss:   0.78, Train Batch Acc:  69.50%, Val Loss:   0.67, Val Acc:  76.95%, Time: 5 days, 20:50:27 
+Epoch: 148, Batch:  406500, Train Batch Loss:   0.63, Train Batch Acc:  78.50%, Val Loss:   0.67, Val Acc:  76.83%, Time: 5 days, 21:00:41 
+*** Epoch: 148, Train Loss:   0.71, Train Acc:  75.10%, Time: 5 days, 21:01:45
+Epoch: 149
+Epoch: 149, Batch:  407000, Train Batch Loss:   0.66, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.85%, Time: 5 days, 21:10:56 
+Epoch: 149, Batch:  407500, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  77.20%, Time: 5 days, 21:21:11 
+Epoch: 149, Batch:  408000, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  76.75%, Time: 5 days, 21:31:26 
+Epoch: 149, Batch:  408500, Train Batch Loss:   0.75, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.35%, Time: 5 days, 21:41:41 
+Epoch: 149, Batch:  409000, Train Batch Loss:   0.73, Train Batch Acc:  73.50%, Val Loss:   0.71, Val Acc:  75.40%, Time: 5 days, 21:51:55 
+*** Epoch: 149, Train Loss:   0.71, Train Acc:  75.13%, Time: 5 days, 21:57:49
+Epoch: 150
+Epoch: 150, Batch:  409500, Train Batch Loss:   0.76, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.76%, Time: 5 days, 22:02:10 
+Epoch: 150, Batch:  410000, Train Batch Loss:   0.82, Train Batch Acc:  67.00%, Val Loss:   0.68, Val Acc:  76.86%, Time: 5 days, 22:12:25 
+Epoch: 150, Batch:  410500, Train Batch Loss:   0.72, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  76.86%, Time: 5 days, 22:22:39 
+Epoch: 150, Batch:  411000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.94%, Time: 5 days, 22:32:54 
+Epoch: 150, Batch:  411500, Train Batch Loss:   0.82, Train Batch Acc:  68.00%, Val Loss:   0.68, Val Acc:  76.70%, Time: 5 days, 22:43:08 
+Epoch: 150, Batch:  412000, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  77.09%, Time: 5 days, 22:53:23 
+*** Epoch: 150, Train Loss:   0.71, Train Acc:  75.10%, Time: 5 days, 22:54:20
+Epoch: 151
+Epoch: 151, Batch:  412500, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.83%, Time: 5 days, 23:03:38 
+Epoch: 151, Batch:  413000, Train Batch Loss:   0.75, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  77.03%, Time: 5 days, 23:13:53 
+Epoch: 151, Batch:  413500, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  76.95%, Time: 5 days, 23:24:08 
+Epoch: 151, Batch:  414000, Train Batch Loss:   0.69, Train Batch Acc:  77.00%, Val Loss:   0.67, Val Acc:  76.97%, Time: 5 days, 23:34:23 
+Epoch: 151, Batch:  414500, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.30%, Time: 5 days, 23:44:37 
+*** Epoch: 151, Train Loss:   0.71, Train Acc:  75.09%, Time: 5 days, 23:50:24
+Epoch: 152
+Epoch: 152, Batch:  415000, Train Batch Loss:   0.74, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.73%, Time: 5 days, 23:54:52 
+Epoch: 152, Batch:  415500, Train Batch Loss:   0.85, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  76.82%, Time: 6 days, 0:05:07 
+Epoch: 152, Batch:  416000, Train Batch Loss:   0.71, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  77.00%, Time: 6 days, 0:15:21 
+Epoch: 152, Batch:  416500, Train Batch Loss:   0.67, Train Batch Acc:  77.50%, Val Loss:   0.69, Val Acc:  76.65%, Time: 6 days, 0:25:35 
+Epoch: 152, Batch:  417000, Train Batch Loss:   0.77, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  76.70%, Time: 6 days, 0:35:50 
+Epoch: 152, Batch:  417500, Train Batch Loss:   0.68, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.18%, Time: 6 days, 0:46:04 
+*** Epoch: 152, Train Loss:   0.71, Train Acc:  75.17%, Time: 6 days, 0:46:55
+Epoch: 153
+Epoch: 153, Batch:  418000, Train Batch Loss:   0.65, Train Batch Acc:  81.00%, Val Loss:   0.67, Val Acc:  76.86%, Time: 6 days, 0:56:19 
+Epoch: 153, Batch:  418500, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.80%, Time: 6 days, 1:06:34 
+Epoch: 153, Batch:  419000, Train Batch Loss:   0.73, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.78%, Time: 6 days, 1:16:48 
+Epoch: 153, Batch:  419500, Train Batch Loss:   0.78, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  76.85%, Time: 6 days, 1:27:03 
+Epoch: 153, Batch:  420000, Train Batch Loss:   0.78, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.93%, Time: 6 days, 1:37:17 
+*** Epoch: 153, Train Loss:   0.71, Train Acc:  75.14%, Time: 6 days, 1:42:57
+Epoch: 154
+Epoch: 154, Batch:  420500, Train Batch Loss:   0.78, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.82%, Time: 6 days, 1:47:32 
+Epoch: 154, Batch:  421000, Train Batch Loss:   0.71, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  77.03%, Time: 6 days, 1:57:46 
+Epoch: 154, Batch:  421500, Train Batch Loss:   0.75, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.72%, Time: 6 days, 2:08:01 
+Epoch: 154, Batch:  422000, Train Batch Loss:   0.74, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.41%, Time: 6 days, 2:18:16 
+Epoch: 154, Batch:  422500, Train Batch Loss:    0.7, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.74%, Time: 6 days, 2:28:30 
+Epoch: 154, Batch:  423000, Train Batch Loss:   0.74, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.91%, Time: 6 days, 2:38:44 
+*** Epoch: 154, Train Loss:   0.71, Train Acc:  75.18%, Time: 6 days, 2:39:27
+Epoch: 155
+Epoch: 155, Batch:  423500, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.07%, Time: 6 days, 2:48:59 
+Epoch: 155, Batch:  424000, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.94%, Time: 6 days, 2:59:14 
+Epoch: 155, Batch:  424500, Train Batch Loss:   0.66, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.98%, Time: 6 days, 3:09:28 
+Epoch: 155, Batch:  425000, Train Batch Loss:    0.7, Train Batch Acc:  78.50%, Val Loss:   0.67, Val Acc:  77.15%, Time: 6 days, 3:19:42 
+Epoch: 155, Batch:  425500, Train Batch Loss:   0.63, Train Batch Acc:  79.50%, Val Loss:   0.67, Val Acc:  76.94%, Time: 6 days, 3:29:56 
+*** Epoch: 155, Train Loss:   0.71, Train Acc:  75.10%, Time: 6 days, 3:35:29
+Epoch: 156
+Epoch: 156, Batch:  426000, Train Batch Loss:   0.64, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.67%, Time: 6 days, 3:40:11 
+Epoch: 156, Batch:  426500, Train Batch Loss:   0.72, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  77.06%, Time: 6 days, 3:50:26 
+Epoch: 156, Batch:  427000, Train Batch Loss:   0.73, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.97%, Time: 6 days, 4:00:40 
+Epoch: 156, Batch:  427500, Train Batch Loss:   0.66, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.58%, Time: 6 days, 4:10:54 
+Epoch: 156, Batch:  428000, Train Batch Loss:   0.69, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  77.08%, Time: 6 days, 4:21:09 
+Epoch: 156, Batch:  428500, Train Batch Loss:   0.67, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.61%, Time: 6 days, 4:31:24 
+*** Epoch: 156, Train Loss:   0.71, Train Acc:  75.13%, Time: 6 days, 4:32:00
+Epoch: 157
+Epoch: 157, Batch:  429000, Train Batch Loss:   0.69, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.65%, Time: 6 days, 4:41:39 
+Epoch: 157, Batch:  429500, Train Batch Loss:   0.69, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  77.26%, Time: 6 days, 4:51:54 
+Epoch: 157, Batch:  430000, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.84%, Time: 6 days, 5:02:08 
+Epoch: 157, Batch:  430500, Train Batch Loss:   0.75, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.64%, Time: 6 days, 5:12:23 
+Epoch: 157, Batch:  431000, Train Batch Loss:   0.78, Train Batch Acc:  71.00%, Val Loss:   0.67, Val Acc:  76.94%, Time: 6 days, 5:22:37 
+*** Epoch: 157, Train Loss:   0.71, Train Acc:  75.20%, Time: 6 days, 5:28:06
+Epoch: 158
+Epoch: 158, Batch:  431500, Train Batch Loss:   0.75, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.77%, Time: 6 days, 5:32:55 
+Epoch: 158, Batch:  432000, Train Batch Loss:   0.67, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.50%, Time: 6 days, 5:43:10 
+Epoch: 158, Batch:  432500, Train Batch Loss:   0.68, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  77.03%, Time: 6 days, 5:53:24 
+Epoch: 158, Batch:  433000, Train Batch Loss:   0.62, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.60%, Time: 6 days, 6:03:38 
+Epoch: 158, Batch:  433500, Train Batch Loss:   0.75, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  77.00%, Time: 6 days, 6:13:53 
+Epoch: 158, Batch:  434000, Train Batch Loss:   0.69, Train Batch Acc:  77.50%, Val Loss:   0.67, Val Acc:  77.23%, Time: 6 days, 6:24:08 
+*** Epoch: 158, Train Loss:   0.71, Train Acc:  75.12%, Time: 6 days, 6:24:37
+Epoch: 159
+Epoch: 159, Batch:  434500, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.95%, Time: 6 days, 6:34:22 
+Epoch: 159, Batch:  435000, Train Batch Loss:   0.67, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  76.87%, Time: 6 days, 6:44:37 
+Epoch: 159, Batch:  435500, Train Batch Loss:   0.65, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.85%, Time: 6 days, 6:54:52 
+Epoch: 159, Batch:  436000, Train Batch Loss:    0.7, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  77.06%, Time: 6 days, 7:05:07 
+Epoch: 159, Batch:  436500, Train Batch Loss:   0.66, Train Batch Acc:  79.50%, Val Loss:   0.67, Val Acc:  76.94%, Time: 6 days, 7:15:22 
+*** Epoch: 159, Train Loss:   0.71, Train Acc:  75.18%, Time: 6 days, 7:20:40
+Epoch: 160
+Epoch: 160, Batch:  437000, Train Batch Loss:   0.64, Train Batch Acc:  81.00%, Val Loss:   0.67, Val Acc:  77.12%, Time: 6 days, 7:25:36 
+Epoch: 160, Batch:  437500, Train Batch Loss:   0.64, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  76.81%, Time: 6 days, 7:35:52 
+Epoch: 160, Batch:  438000, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  77.48%, Time: 6 days, 7:46:08 *
+Epoch: 160, Batch:  438500, Train Batch Loss:   0.69, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  77.22%, Time: 6 days, 7:56:23 
+Epoch: 160, Batch:  439000, Train Batch Loss:   0.65, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.35%, Time: 6 days, 8:06:38 
+Epoch: 160, Batch:  439500, Train Batch Loss:    0.8, Train Batch Acc:  69.50%, Val Loss:   0.67, Val Acc:  77.05%, Time: 6 days, 8:16:53 
+*** Epoch: 160, Train Loss:   0.71, Train Acc:  75.11%, Time: 6 days, 8:17:15
+Epoch: 161
+Epoch: 161, Batch:  440000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.59%, Time: 6 days, 8:27:08 
+Epoch: 161, Batch:  440500, Train Batch Loss:   0.78, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.50%, Time: 6 days, 8:37:23 
+Epoch: 161, Batch:  441000, Train Batch Loss:   0.65, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.62%, Time: 6 days, 8:47:38 
+Epoch: 161, Batch:  441500, Train Batch Loss:   0.68, Train Batch Acc:  80.50%, Val Loss:   0.68, Val Acc:  76.93%, Time: 6 days, 8:57:53 
+Epoch: 161, Batch:  442000, Train Batch Loss:   0.73, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  76.92%, Time: 6 days, 9:08:07 
+*** Epoch: 161, Train Loss:   0.71, Train Acc:  75.19%, Time: 6 days, 9:13:19
+Epoch: 162
+Epoch: 162, Batch:  442500, Train Batch Loss:   0.68, Train Batch Acc:  77.00%, Val Loss:   0.67, Val Acc:  77.05%, Time: 6 days, 9:18:22 
+Epoch: 162, Batch:  443000, Train Batch Loss:   0.74, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.54%, Time: 6 days, 9:28:37 
+Epoch: 162, Batch:  443500, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.95%, Time: 6 days, 9:38:51 
+Epoch: 162, Batch:  444000, Train Batch Loss:   0.72, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.98%, Time: 6 days, 9:49:06 
+Epoch: 162, Batch:  444500, Train Batch Loss:   0.78, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  77.26%, Time: 6 days, 9:59:21 
+Epoch: 162, Batch:  445000, Train Batch Loss:    0.7, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.09%, Time: 6 days, 10:09:49 
+*** Epoch: 162, Train Loss:   0.71, Train Acc:  75.19%, Time: 6 days, 10:10:04
+Epoch: 163
+Epoch: 163, Batch:  445500, Train Batch Loss:   0.75, Train Batch Acc:  70.50%, Val Loss:   0.67, Val Acc:  77.04%, Time: 6 days, 10:20:10 
+Epoch: 163, Batch:  446000, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.97%, Time: 6 days, 10:30:51 
+Epoch: 163, Batch:  446500, Train Batch Loss:   0.73, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  76.74%, Time: 6 days, 10:41:28 
+Epoch: 163, Batch:  447000, Train Batch Loss:   0.62, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.68%, Time: 6 days, 10:52:04 
+Epoch: 163, Batch:  447500, Train Batch Loss:   0.67, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.27%, Time: 6 days, 11:02:38 
+*** Epoch: 163, Train Loss:   0.71, Train Acc:  75.18%, Time: 6 days, 11:07:50
+Epoch: 164
+Epoch: 164, Batch:  448000, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.66%, Time: 6 days, 11:13:04 
+Epoch: 164, Batch:  448500, Train Batch Loss:   0.71, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  77.01%, Time: 6 days, 11:23:27 
+Epoch: 164, Batch:  449000, Train Batch Loss:   0.66, Train Batch Acc:  77.50%, Val Loss:   0.67, Val Acc:  77.57%, Time: 6 days, 11:33:52 *
+Epoch: 164, Batch:  449500, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.89%, Time: 6 days, 11:44:16 
+Epoch: 164, Batch:  450000, Train Batch Loss:   0.69, Train Batch Acc:  77.00%, Val Loss:   0.67, Val Acc:  77.12%, Time: 6 days, 11:54:39 
+Epoch: 164, Batch:  450500, Train Batch Loss:    0.7, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  77.06%, Time: 6 days, 12:05:02 
+*** Epoch: 164, Train Loss:   0.71, Train Acc:  75.20%, Time: 6 days, 12:05:10
+Epoch: 165
+Epoch: 165, Batch:  451000, Train Batch Loss:   0.71, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  77.33%, Time: 6 days, 12:15:27 
+Epoch: 165, Batch:  451500, Train Batch Loss:   0.72, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.49%, Time: 6 days, 12:25:50 
+Epoch: 165, Batch:  452000, Train Batch Loss:   0.76, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.88%, Time: 6 days, 12:36:14 
+Epoch: 165, Batch:  452500, Train Batch Loss:   0.71, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.99%, Time: 6 days, 12:46:39 
+Epoch: 165, Batch:  453000, Train Batch Loss:   0.74, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.77%, Time: 6 days, 12:57:03 
+*** Epoch: 165, Train Loss:   0.71, Train Acc:  75.24%, Time: 6 days, 13:02:05
+Epoch: 166
+Epoch: 166, Batch:  453500, Train Batch Loss:   0.81, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.30%, Time: 6 days, 13:07:29 
+Epoch: 166, Batch:  454000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.22%, Time: 6 days, 13:17:53 
+Epoch: 166, Batch:  454500, Train Batch Loss:   0.72, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  77.05%, Time: 6 days, 13:28:17 
+Epoch: 166, Batch:  455000, Train Batch Loss:   0.61, Train Batch Acc:  79.50%, Val Loss:   0.68, Val Acc:  76.56%, Time: 6 days, 13:38:46 
+Epoch: 166, Batch:  455500, Train Batch Loss:   0.69, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  76.98%, Time: 6 days, 13:49:11 
+Epoch: 166, Batch:  456000, Train Batch Loss:   0.63, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  76.84%, Time: 6 days, 13:59:36 
+*** Epoch: 166, Train Loss:   0.71, Train Acc:  75.30%, Time: 6 days, 13:59:37
+Epoch: 167
+Epoch: 167, Batch:  456500, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.77%, Time: 6 days, 14:10:03 
+Epoch: 167, Batch:  457000, Train Batch Loss:    0.8, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  76.86%, Time: 6 days, 14:20:28 
+Epoch: 167, Batch:  457500, Train Batch Loss:    0.7, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.62%, Time: 6 days, 14:30:53 
+Epoch: 167, Batch:  458000, Train Batch Loss:   0.72, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.74%, Time: 6 days, 14:41:18 
+Epoch: 167, Batch:  458500, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  77.20%, Time: 6 days, 14:51:43 
+*** Epoch: 167, Train Loss:   0.71, Train Acc:  75.24%, Time: 6 days, 14:56:40
+Epoch: 168
+Epoch: 168, Batch:  459000, Train Batch Loss:   0.68, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  76.77%, Time: 6 days, 15:02:09 
+Epoch: 168, Batch:  459500, Train Batch Loss:   0.87, Train Batch Acc:  63.50%, Val Loss:   0.67, Val Acc:  77.27%, Time: 6 days, 15:12:41 
+Epoch: 168, Batch:  460000, Train Batch Loss:   0.74, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  77.12%, Time: 6 days, 15:24:21 
+Epoch: 168, Batch:  460500, Train Batch Loss:   0.77, Train Batch Acc:  71.00%, Val Loss:   0.67, Val Acc:  76.92%, Time: 6 days, 15:37:08 
+Epoch: 168, Batch:  461000, Train Batch Loss:   0.75, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  76.77%, Time: 6 days, 15:49:37 
+*** Epoch: 168, Train Loss:   0.71, Train Acc:  75.27%, Time: 6 days, 16:00:36
+Epoch: 169
+Epoch: 169, Batch:  461500, Train Batch Loss:   0.68, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.69%, Time: 6 days, 16:01:11 
+Epoch: 169, Batch:  462000, Train Batch Loss:   0.64, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  76.97%, Time: 6 days, 16:11:35 
+Epoch: 169, Batch:  462500, Train Batch Loss:   0.79, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  77.09%, Time: 6 days, 16:22:18 
+Epoch: 169, Batch:  463000, Train Batch Loss:   0.69, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  77.23%, Time: 6 days, 16:33:11 
+Epoch: 169, Batch:  463500, Train Batch Loss:   0.63, Train Batch Acc:  78.50%, Val Loss:   0.67, Val Acc:  77.20%, Time: 6 days, 16:43:33 
+Epoch: 169, Batch:  464000, Train Batch Loss:   0.67, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.96%, Time: 6 days, 16:53:51 
+*** Epoch: 169, Train Loss:   0.71, Train Acc:  75.28%, Time: 6 days, 16:58:35
+Epoch: 170
+Epoch: 170, Batch:  464500, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.07%, Time: 6 days, 17:04:10 
+Epoch: 170, Batch:  465000, Train Batch Loss:   0.66, Train Batch Acc:  75.50%, Val Loss:   0.69, Val Acc:  76.55%, Time: 6 days, 17:14:29 
+Epoch: 170, Batch:  465500, Train Batch Loss:    0.7, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  77.26%, Time: 6 days, 17:24:47 
+Epoch: 170, Batch:  466000, Train Batch Loss:   0.69, Train Batch Acc:  75.00%, Val Loss:   0.68, Val Acc:  76.96%, Time: 6 days, 17:35:45 
+Epoch: 170, Batch:  466500, Train Batch Loss:   0.65, Train Batch Acc:  80.00%, Val Loss:   0.68, Val Acc:  76.64%, Time: 6 days, 17:46:29 
+*** Epoch: 170, Train Loss:   0.71, Train Acc:  75.25%, Time: 6 days, 17:56:04
+Epoch: 171
+Epoch: 171, Batch:  467000, Train Batch Loss:   0.63, Train Batch Acc:  77.50%, Val Loss:   0.67, Val Acc:  77.26%, Time: 6 days, 17:56:46 
+Epoch: 171, Batch:  467500, Train Batch Loss:   0.77, Train Batch Acc:  69.50%, Val Loss:   0.67, Val Acc:  77.07%, Time: 6 days, 18:07:03 
+Epoch: 171, Batch:  468000, Train Batch Loss:   0.63, Train Batch Acc:  77.50%, Val Loss:   0.67, Val Acc:  77.20%, Time: 6 days, 18:17:20 
+Epoch: 171, Batch:  468500, Train Batch Loss:   0.75, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  77.23%, Time: 6 days, 18:27:36 
+Epoch: 171, Batch:  469000, Train Batch Loss:   0.76, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  77.02%, Time: 6 days, 18:37:53 
+Epoch: 171, Batch:  469500, Train Batch Loss:   0.67, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  77.06%, Time: 6 days, 18:48:09 
+*** Epoch: 171, Train Loss:   0.71, Train Acc:  75.37%, Time: 6 days, 18:52:47
+Epoch: 172
+Epoch: 172, Batch:  470000, Train Batch Loss:   0.81, Train Batch Acc:  71.00%, Val Loss:   0.67, Val Acc:  77.02%, Time: 6 days, 18:58:26 
+Epoch: 172, Batch:  470500, Train Batch Loss:   0.76, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.97%, Time: 6 days, 19:08:43 
+Epoch: 172, Batch:  471000, Train Batch Loss:   0.73, Train Batch Acc:  77.00%, Val Loss:   0.67, Val Acc:  77.14%, Time: 6 days, 19:19:00 
+Epoch: 172, Batch:  471500, Train Batch Loss:   0.77, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  77.26%, Time: 6 days, 19:29:16 
+Epoch: 172, Batch:  472000, Train Batch Loss:   0.82, Train Batch Acc:  69.00%, Val Loss:   0.67, Val Acc:  76.88%, Time: 6 days, 19:39:33 
+*** Epoch: 172, Train Loss:    0.7, Train Acc:  75.30%, Time: 6 days, 19:49:01
+Epoch: 173
+Epoch: 173, Batch:  472500, Train Batch Loss:    0.7, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  76.96%, Time: 6 days, 19:49:50 
+Epoch: 173, Batch:  473000, Train Batch Loss:   0.72, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  76.88%, Time: 6 days, 20:00:06 
+Epoch: 173, Batch:  473500, Train Batch Loss:    0.8, Train Batch Acc:  71.00%, Val Loss:   0.68, Val Acc:  76.70%, Time: 6 days, 20:10:23 
+Epoch: 173, Batch:  474000, Train Batch Loss:   0.64, Train Batch Acc:  79.50%, Val Loss:   0.68, Val Acc:  76.63%, Time: 6 days, 20:20:39 
+Epoch: 173, Batch:  474500, Train Batch Loss:    0.7, Train Batch Acc:  77.00%, Val Loss:   0.67, Val Acc:  76.98%, Time: 6 days, 20:30:56 
+Epoch: 173, Batch:  475000, Train Batch Loss:   0.66, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  76.91%, Time: 6 days, 20:41:13 
+*** Epoch: 173, Train Loss:    0.7, Train Acc:  75.33%, Time: 6 days, 20:45:43
+Epoch: 174
+Epoch: 174, Batch:  475500, Train Batch Loss:   0.69, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.03%, Time: 6 days, 20:51:30 
+Epoch: 174, Batch:  476000, Train Batch Loss:   0.75, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.92%, Time: 6 days, 21:01:48 
+Epoch: 174, Batch:  476500, Train Batch Loss:   0.65, Train Batch Acc:  80.50%, Val Loss:   0.68, Val Acc:  76.91%, Time: 6 days, 21:12:06 
+Epoch: 174, Batch:  477000, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  76.71%, Time: 6 days, 21:22:22 
+Epoch: 174, Batch:  477500, Train Batch Loss:    0.7, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  76.91%, Time: 6 days, 21:32:39 
+*** Epoch: 174, Train Loss:    0.7, Train Acc:  75.27%, Time: 6 days, 21:42:01
+Epoch: 175
+Epoch: 175, Batch:  478000, Train Batch Loss:   0.74, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.73%, Time: 6 days, 21:42:57 
+Epoch: 175, Batch:  478500, Train Batch Loss:   0.63, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.67%, Time: 6 days, 21:53:13 
+Epoch: 175, Batch:  479000, Train Batch Loss:   0.66, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  76.84%, Time: 6 days, 22:03:30 
+Epoch: 175, Batch:  479500, Train Batch Loss:   0.77, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  77.04%, Time: 6 days, 22:13:48 
+Epoch: 175, Batch:  480000, Train Batch Loss:   0.66, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.82%, Time: 6 days, 22:24:04 
+Epoch: 175, Batch:  480500, Train Batch Loss:    0.8, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  77.03%, Time: 6 days, 22:34:21 
+*** Epoch: 175, Train Loss:    0.7, Train Acc:  75.32%, Time: 6 days, 22:38:44
+Epoch: 176
+Epoch: 176, Batch:  481000, Train Batch Loss:   0.68, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.09%, Time: 6 days, 22:44:38 
+Epoch: 176, Batch:  481500, Train Batch Loss:   0.68, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.43%, Time: 6 days, 22:54:55 
+Epoch: 176, Batch:  482000, Train Batch Loss:   0.64, Train Batch Acc:  81.00%, Val Loss:   0.67, Val Acc:  77.13%, Time: 6 days, 23:05:11 
+Epoch: 176, Batch:  482500, Train Batch Loss:   0.65, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.34%, Time: 6 days, 23:15:28 
+Epoch: 176, Batch:  483000, Train Batch Loss:   0.73, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.03%, Time: 6 days, 23:25:45 
+*** Epoch: 176, Train Loss:    0.7, Train Acc:  75.30%, Time: 6 days, 23:34:59
+Epoch: 177
+Epoch: 177, Batch:  483500, Train Batch Loss:   0.69, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.95%, Time: 6 days, 23:36:02 
+Epoch: 177, Batch:  484000, Train Batch Loss:   0.58, Train Batch Acc:  85.00%, Val Loss:   0.67, Val Acc:  76.62%, Time: 6 days, 23:46:19 
+Epoch: 177, Batch:  484500, Train Batch Loss:    0.7, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.02%, Time: 6 days, 23:56:36 
+Epoch: 177, Batch:  485000, Train Batch Loss:   0.73, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  77.24%, Time: 7 days, 0:06:53 
+Epoch: 177, Batch:  485500, Train Batch Loss:   0.71, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  77.08%, Time: 7 days, 0:17:10 
+Epoch: 177, Batch:  486000, Train Batch Loss:   0.76, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.97%, Time: 7 days, 0:27:26 
+*** Epoch: 177, Train Loss:    0.7, Train Acc:  75.38%, Time: 7 days, 0:31:42
+Epoch: 178
+Epoch: 178, Batch:  486500, Train Batch Loss:   0.69, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.95%, Time: 7 days, 0:37:43 
+Epoch: 178, Batch:  487000, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  76.86%, Time: 7 days, 0:48:00 
+Epoch: 178, Batch:  487500, Train Batch Loss:   0.62, Train Batch Acc:  78.50%, Val Loss:   0.67, Val Acc:  77.22%, Time: 7 days, 0:58:17 
+Epoch: 178, Batch:  488000, Train Batch Loss:   0.73, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  77.32%, Time: 7 days, 1:08:34 
+Epoch: 178, Batch:  488500, Train Batch Loss:   0.67, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.28%, Time: 7 days, 1:18:55 
+*** Epoch: 178, Train Loss:    0.7, Train Acc:  75.35%, Time: 7 days, 1:28:00
+Epoch: 179
+Epoch: 179, Batch:  489000, Train Batch Loss:    0.7, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.84%, Time: 7 days, 1:29:10 
+Epoch: 179, Batch:  489500, Train Batch Loss:   0.74, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  76.70%, Time: 7 days, 1:39:25 
+Epoch: 179, Batch:  490000, Train Batch Loss:   0.68, Train Batch Acc:  77.50%, Val Loss:   0.67, Val Acc:  76.88%, Time: 7 days, 1:49:41 
+Epoch: 179, Batch:  490500, Train Batch Loss:   0.68, Train Batch Acc:  78.50%, Val Loss:   0.67, Val Acc:  76.79%, Time: 7 days, 1:59:57 
+Epoch: 179, Batch:  491000, Train Batch Loss:   0.62, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  76.66%, Time: 7 days, 2:10:13 
+Epoch: 179, Batch:  491500, Train Batch Loss:   0.81, Train Batch Acc:  66.00%, Val Loss:   0.68, Val Acc:  76.66%, Time: 7 days, 2:20:28 
+*** Epoch: 179, Train Loss:    0.7, Train Acc:  75.29%, Time: 7 days, 2:24:37
+Epoch: 180
+Epoch: 180, Batch:  492000, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.96%, Time: 7 days, 2:30:44 
+Epoch: 180, Batch:  492500, Train Batch Loss:   0.72, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  77.27%, Time: 7 days, 2:40:59 
+Epoch: 180, Batch:  493000, Train Batch Loss:    0.6, Train Batch Acc:  82.50%, Val Loss:   0.68, Val Acc:  76.83%, Time: 7 days, 2:51:15 
+Epoch: 180, Batch:  493500, Train Batch Loss:   0.76, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  76.92%, Time: 7 days, 3:01:30 
+Epoch: 180, Batch:  494000, Train Batch Loss:    0.7, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  77.07%, Time: 7 days, 3:11:45 
+*** Epoch: 180, Train Loss:    0.7, Train Acc:  75.40%, Time: 7 days, 3:20:44
+Epoch: 181
+Epoch: 181, Batch:  494500, Train Batch Loss:   0.79, Train Batch Acc:  70.50%, Val Loss:   0.67, Val Acc:  77.11%, Time: 7 days, 3:22:01 
+Epoch: 181, Batch:  495000, Train Batch Loss:   0.71, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  77.15%, Time: 7 days, 3:32:16 
+Epoch: 181, Batch:  495500, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.01%, Time: 7 days, 3:42:31 
+Epoch: 181, Batch:  496000, Train Batch Loss:   0.65, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.18%, Time: 7 days, 3:52:46 
+Epoch: 181, Batch:  496500, Train Batch Loss:   0.65, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  76.69%, Time: 7 days, 4:03:01 
+Epoch: 181, Batch:  497000, Train Batch Loss:    0.7, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.80%, Time: 7 days, 4:13:16 
+*** Epoch: 181, Train Loss:    0.7, Train Acc:  75.38%, Time: 7 days, 4:17:18
+Epoch: 182
+Epoch: 182, Batch:  497500, Train Batch Loss:   0.59, Train Batch Acc:  78.50%, Val Loss:   0.67, Val Acc:  77.00%, Time: 7 days, 4:23:32 
+Epoch: 182, Batch:  498000, Train Batch Loss:    0.8, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  77.11%, Time: 7 days, 4:33:47 
+Epoch: 182, Batch:  498500, Train Batch Loss:   0.72, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  76.91%, Time: 7 days, 4:44:02 
+Epoch: 182, Batch:  499000, Train Batch Loss:   0.74, Train Batch Acc:  69.00%, Val Loss:   0.67, Val Acc:  76.87%, Time: 7 days, 4:54:17 
+Epoch: 182, Batch:  499500, Train Batch Loss:   0.76, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.63%, Time: 7 days, 5:04:33 
+*** Epoch: 182, Train Loss:    0.7, Train Acc:  75.32%, Time: 7 days, 5:13:24
+Epoch: 183
+Epoch: 183, Batch:  500000, Train Batch Loss:   0.68, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  76.87%, Time: 7 days, 5:14:48 
+Epoch: 183, Batch:  500500, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  76.88%, Time: 7 days, 5:25:04 
+Epoch: 183, Batch:  501000, Train Batch Loss:   0.64, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.01%, Time: 7 days, 5:35:19 
+Epoch: 183, Batch:  501500, Train Batch Loss:   0.72, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.68%, Time: 7 days, 5:45:34 
+Epoch: 183, Batch:  502000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.36%, Time: 7 days, 5:55:49 
+Epoch: 183, Batch:  502500, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  77.20%, Time: 7 days, 6:06:04 
+*** Epoch: 183, Train Loss:    0.7, Train Acc:  75.36%, Time: 7 days, 6:09:59
+Epoch: 184
+Epoch: 184, Batch:  503000, Train Batch Loss:    0.7, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  76.88%, Time: 7 days, 6:16:20 
+Epoch: 184, Batch:  503500, Train Batch Loss:   0.72, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.51%, Time: 7 days, 6:26:35 
+Epoch: 184, Batch:  504000, Train Batch Loss:    0.7, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  77.17%, Time: 7 days, 6:36:50 
+Epoch: 184, Batch:  504500, Train Batch Loss:   0.65, Train Batch Acc:  80.50%, Val Loss:   0.67, Val Acc:  76.95%, Time: 7 days, 6:47:05 
+Epoch: 184, Batch:  505000, Train Batch Loss:   0.65, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.43%, Time: 7 days, 6:57:20 
+*** Epoch: 184, Train Loss:    0.7, Train Acc:  75.39%, Time: 7 days, 7:06:05
+Epoch: 185
+Epoch: 185, Batch:  505500, Train Batch Loss:   0.72, Train Batch Acc:  71.50%, Val Loss:   0.68, Val Acc:  76.69%, Time: 7 days, 7:07:36 
+Epoch: 185, Batch:  506000, Train Batch Loss:   0.68, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.12%, Time: 7 days, 7:17:51 
+Epoch: 185, Batch:  506500, Train Batch Loss:   0.77, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  77.07%, Time: 7 days, 7:28:06 
+Epoch: 185, Batch:  507000, Train Batch Loss:   0.68, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  77.08%, Time: 7 days, 7:38:22 
+Epoch: 185, Batch:  507500, Train Batch Loss:   0.68, Train Batch Acc:  78.50%, Val Loss:   0.67, Val Acc:  77.11%, Time: 7 days, 7:48:37 
+Epoch: 185, Batch:  508000, Train Batch Loss:   0.64, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  77.06%, Time: 7 days, 7:59:19 
+*** Epoch: 185, Train Loss:    0.7, Train Acc:  75.37%, Time: 7 days, 8:03:19
+Epoch: 186
+Epoch: 186, Batch:  508500, Train Batch Loss:   0.74, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.50%, Time: 7 days, 8:10:19 
+Epoch: 186, Batch:  509000, Train Batch Loss:   0.73, Train Batch Acc:  74.00%, Val Loss:   0.68, Val Acc:  76.80%, Time: 7 days, 8:21:27 
+Epoch: 186, Batch:  509500, Train Batch Loss:   0.76, Train Batch Acc:  73.00%, Val Loss:   0.68, Val Acc:  76.33%, Time: 7 days, 8:32:26 
+Epoch: 186, Batch:  510000, Train Batch Loss:    0.7, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.05%, Time: 7 days, 8:43:14 
+Epoch: 186, Batch:  510500, Train Batch Loss:   0.76, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  77.18%, Time: 7 days, 8:54:01 
+*** Epoch: 186, Train Loss:    0.7, Train Acc:  75.35%, Time: 7 days, 9:03:05
+Epoch: 187
+Epoch: 187, Batch:  511000, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.06%, Time: 7 days, 9:04:49 
+Epoch: 187, Batch:  511500, Train Batch Loss:   0.76, Train Batch Acc:  72.00%, Val Loss:   0.67, Val Acc:  76.89%, Time: 7 days, 9:15:36 
+Epoch: 187, Batch:  512000, Train Batch Loss:   0.69, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.66%, Time: 7 days, 9:26:24 
+Epoch: 187, Batch:  512500, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.76%, Time: 7 days, 9:37:12 
+Epoch: 187, Batch:  513000, Train Batch Loss:   0.62, Train Batch Acc:  81.00%, Val Loss:   0.67, Val Acc:  76.94%, Time: 7 days, 9:48:03 
+Epoch: 187, Batch:  513500, Train Batch Loss:   0.65, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.03%, Time: 7 days, 9:58:52 
+*** Epoch: 187, Train Loss:    0.7, Train Acc:  75.32%, Time: 7 days, 10:02:44
+Epoch: 188
+Epoch: 188, Batch:  514000, Train Batch Loss:   0.72, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.41%, Time: 7 days, 10:09:42 
+Epoch: 188, Batch:  514500, Train Batch Loss:   0.62, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  77.06%, Time: 7 days, 10:20:30 
+Epoch: 188, Batch:  515000, Train Batch Loss:   0.65, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  76.97%, Time: 7 days, 10:31:19 
+Epoch: 188, Batch:  515500, Train Batch Loss:   0.74, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  77.17%, Time: 7 days, 10:42:08 
+Epoch: 188, Batch:  516000, Train Batch Loss:   0.62, Train Batch Acc:  81.00%, Val Loss:   0.67, Val Acc:  77.31%, Time: 7 days, 10:52:57 
+*** Epoch: 188, Train Loss:    0.7, Train Acc:  75.43%, Time: 7 days, 11:01:56
+Epoch: 189
+Epoch: 189, Batch:  516500, Train Batch Loss:   0.69, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.35%, Time: 7 days, 11:03:47 
+Epoch: 189, Batch:  517000, Train Batch Loss:   0.63, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.55%, Time: 7 days, 11:14:35 
+Epoch: 189, Batch:  517500, Train Batch Loss:   0.61, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  76.88%, Time: 7 days, 11:25:24 
+Epoch: 189, Batch:  518000, Train Batch Loss:   0.63, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  76.77%, Time: 7 days, 11:36:13 
+Epoch: 189, Batch:  518500, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.92%, Time: 7 days, 11:47:02 
+Epoch: 189, Batch:  519000, Train Batch Loss:   0.74, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  76.98%, Time: 7 days, 11:57:51 
+*** Epoch: 189, Train Loss:    0.7, Train Acc:  75.42%, Time: 7 days, 12:01:36
+Epoch: 190
+Epoch: 190, Batch:  519500, Train Batch Loss:    0.6, Train Batch Acc:  81.50%, Val Loss:   0.67, Val Acc:  76.91%, Time: 7 days, 12:08:40 
+Epoch: 190, Batch:  520000, Train Batch Loss:   0.63, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  76.82%, Time: 7 days, 12:19:29 
+Epoch: 190, Batch:  520500, Train Batch Loss:   0.69, Train Batch Acc:  78.50%, Val Loss:   0.68, Val Acc:  76.67%, Time: 7 days, 12:30:17 
+Epoch: 190, Batch:  521000, Train Batch Loss:   0.77, Train Batch Acc:  72.00%, Val Loss:   0.68, Val Acc:  76.95%, Time: 7 days, 12:41:07 
+Epoch: 190, Batch:  521500, Train Batch Loss:   0.59, Train Batch Acc:  81.00%, Val Loss:   0.67, Val Acc:  77.22%, Time: 7 days, 12:51:54 
+*** Epoch: 190, Train Loss:    0.7, Train Acc:  75.38%, Time: 7 days, 13:00:28
+Epoch: 191
+Epoch: 191, Batch:  522000, Train Batch Loss:   0.71, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  76.98%, Time: 7 days, 13:02:21 
+Epoch: 191, Batch:  522500, Train Batch Loss:   0.65, Train Batch Acc:  77.50%, Val Loss:   0.67, Val Acc:  76.96%, Time: 7 days, 13:12:36 
+Epoch: 191, Batch:  523000, Train Batch Loss:   0.65, Train Batch Acc:  78.50%, Val Loss:   0.67, Val Acc:  76.91%, Time: 7 days, 13:22:52 
+Epoch: 191, Batch:  523500, Train Batch Loss:   0.76, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.81%, Time: 7 days, 13:33:10 
+Epoch: 191, Batch:  524000, Train Batch Loss:   0.61, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.34%, Time: 7 days, 13:43:25 
+Epoch: 191, Batch:  524500, Train Batch Loss:   0.66, Train Batch Acc:  78.00%, Val Loss:   0.68, Val Acc:  76.50%, Time: 7 days, 13:53:41 
+*** Epoch: 191, Train Loss:    0.7, Train Acc:  75.38%, Time: 7 days, 13:57:07
+Epoch: 192
+Epoch: 192, Batch:  525000, Train Batch Loss:    0.6, Train Batch Acc:  81.50%, Val Loss:   0.67, Val Acc:  77.00%, Time: 7 days, 14:03:57 
+Epoch: 192, Batch:  525500, Train Batch Loss:   0.65, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  76.84%, Time: 7 days, 14:14:12 
+Epoch: 192, Batch:  526000, Train Batch Loss:   0.73, Train Batch Acc:  74.50%, Val Loss:   0.67, Val Acc:  76.98%, Time: 7 days, 14:24:27 
+Epoch: 192, Batch:  526500, Train Batch Loss:   0.73, Train Batch Acc:  76.50%, Val Loss:   0.67, Val Acc:  77.00%, Time: 7 days, 14:34:42 
+Epoch: 192, Batch:  527000, Train Batch Loss:   0.78, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  76.87%, Time: 7 days, 14:44:58 
+*** Epoch: 192, Train Loss:    0.7, Train Acc:  75.43%, Time: 7 days, 14:53:14
+Epoch: 193
+Epoch: 193, Batch:  527500, Train Batch Loss:   0.64, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.12%, Time: 7 days, 14:55:13 
+Epoch: 193, Batch:  528000, Train Batch Loss:    0.7, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.85%, Time: 7 days, 15:05:30 
+Epoch: 193, Batch:  528500, Train Batch Loss:   0.78, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  77.29%, Time: 7 days, 15:15:47 
+Epoch: 193, Batch:  529000, Train Batch Loss:   0.76, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  76.98%, Time: 7 days, 15:26:03 
+Epoch: 193, Batch:  529500, Train Batch Loss:   0.79, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.94%, Time: 7 days, 15:36:20 
+Epoch: 193, Batch:  530000, Train Batch Loss:   0.65, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  76.71%, Time: 7 days, 15:46:37 
+*** Epoch: 193, Train Loss:    0.7, Train Acc:  75.43%, Time: 7 days, 15:49:57
+Epoch: 194
+Epoch: 194, Batch:  530500, Train Batch Loss:   0.76, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  77.17%, Time: 7 days, 15:56:55 
+Epoch: 194, Batch:  531000, Train Batch Loss:   0.68, Train Batch Acc:  79.00%, Val Loss:   0.67, Val Acc:  76.93%, Time: 7 days, 16:07:11 
+Epoch: 194, Batch:  531500, Train Batch Loss:    0.6, Train Batch Acc:  82.00%, Val Loss:   0.67, Val Acc:  77.16%, Time: 7 days, 16:17:28 
+Epoch: 194, Batch:  532000, Train Batch Loss:   0.73, Train Batch Acc:  72.50%, Val Loss:   0.68, Val Acc:  76.88%, Time: 7 days, 16:27:45 
+Epoch: 194, Batch:  532500, Train Batch Loss:   0.66, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.02%, Time: 7 days, 16:38:02 
+*** Epoch: 194, Train Loss:    0.7, Train Acc:  75.40%, Time: 7 days, 16:46:12
+Epoch: 195
+Epoch: 195, Batch:  533000, Train Batch Loss:   0.67, Train Batch Acc:  75.50%, Val Loss:   0.68, Val Acc:  76.72%, Time: 7 days, 16:48:19 
+Epoch: 195, Batch:  533500, Train Batch Loss:   0.71, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.24%, Time: 7 days, 16:58:36 
+Epoch: 195, Batch:  534000, Train Batch Loss:   0.68, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  76.96%, Time: 7 days, 17:09:19 
+Epoch: 195, Batch:  534500, Train Batch Loss:   0.75, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  76.96%, Time: 7 days, 17:19:53 
+Epoch: 195, Batch:  535000, Train Batch Loss:   0.69, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.35%, Time: 7 days, 17:30:35 
+Epoch: 195, Batch:  535500, Train Batch Loss:   0.69, Train Batch Acc:  74.00%, Val Loss:   0.67, Val Acc:  77.21%, Time: 7 days, 17:41:13 
+*** Epoch: 195, Train Loss:    0.7, Train Acc:  75.39%, Time: 7 days, 17:44:32
+Epoch: 196
+Epoch: 196, Batch:  536000, Train Batch Loss:   0.76, Train Batch Acc:  71.00%, Val Loss:   0.67, Val Acc:  77.00%, Time: 7 days, 17:51:50 
+Epoch: 196, Batch:  536500, Train Batch Loss:   0.68, Train Batch Acc:  74.50%, Val Loss:   0.68, Val Acc:  76.88%, Time: 7 days, 18:02:28 
+Epoch: 196, Batch:  537000, Train Batch Loss:   0.72, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  77.13%, Time: 7 days, 18:13:04 
+Epoch: 196, Batch:  537500, Train Batch Loss:   0.67, Train Batch Acc:  79.50%, Val Loss:   0.67, Val Acc:  76.99%, Time: 7 days, 18:23:41 
+Epoch: 196, Batch:  538000, Train Batch Loss:   0.76, Train Batch Acc:  71.50%, Val Loss:   0.67, Val Acc:  77.02%, Time: 7 days, 18:34:18 
+*** Epoch: 196, Train Loss:    0.7, Train Acc:  75.40%, Time: 7 days, 18:42:36
+Epoch: 197
+Epoch: 197, Batch:  538500, Train Batch Loss:   0.65, Train Batch Acc:  77.50%, Val Loss:   0.68, Val Acc:  76.85%, Time: 7 days, 18:44:54 
+Epoch: 197, Batch:  539000, Train Batch Loss:   0.73, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  76.91%, Time: 7 days, 18:55:32 
+Epoch: 197, Batch:  539500, Train Batch Loss:   0.78, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  76.95%, Time: 7 days, 19:06:09 
+Epoch: 197, Batch:  540000, Train Batch Loss:   0.66, Train Batch Acc:  79.00%, Val Loss:   0.68, Val Acc:  77.16%, Time: 7 days, 19:16:45 
+Epoch: 197, Batch:  540500, Train Batch Loss:   0.75, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  77.23%, Time: 7 days, 19:27:21 
+Epoch: 197, Batch:  541000, Train Batch Loss:   0.74, Train Batch Acc:  71.00%, Val Loss:   0.67, Val Acc:  77.11%, Time: 7 days, 19:37:58 
+*** Epoch: 197, Train Loss:    0.7, Train Acc:  75.39%, Time: 7 days, 19:41:09
+Epoch: 198
+Epoch: 198, Batch:  541500, Train Batch Loss:   0.69, Train Batch Acc:  76.00%, Val Loss:   0.67, Val Acc:  77.17%, Time: 7 days, 19:48:34 
+Epoch: 198, Batch:  542000, Train Batch Loss:   0.68, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  77.22%, Time: 7 days, 19:59:11 
+Epoch: 198, Batch:  542500, Train Batch Loss:   0.63, Train Batch Acc:  81.50%, Val Loss:   0.67, Val Acc:  77.14%, Time: 7 days, 20:09:48 
+Epoch: 198, Batch:  543000, Train Batch Loss:   0.79, Train Batch Acc:  72.50%, Val Loss:   0.67, Val Acc:  77.23%, Time: 7 days, 20:20:24 
+Epoch: 198, Batch:  543500, Train Batch Loss:   0.73, Train Batch Acc:  70.50%, Val Loss:   0.67, Val Acc:  76.99%, Time: 7 days, 20:31:01 
+*** Epoch: 198, Train Loss:    0.7, Train Acc:  75.49%, Time: 7 days, 20:39:16
+Epoch: 199
+Epoch: 199, Batch:  544000, Train Batch Loss:   0.72, Train Batch Acc:  73.50%, Val Loss:   0.67, Val Acc:  77.09%, Time: 7 days, 20:41:41 
+Epoch: 199, Batch:  544500, Train Batch Loss:    0.7, Train Batch Acc:  73.00%, Val Loss:   0.67, Val Acc:  76.97%, Time: 7 days, 20:52:18 
+Epoch: 199, Batch:  545000, Train Batch Loss:   0.71, Train Batch Acc:  75.00%, Val Loss:   0.67, Val Acc:  77.07%, Time: 7 days, 21:02:57 
+Epoch: 199, Batch:  545500, Train Batch Loss:   0.82, Train Batch Acc:  70.00%, Val Loss:   0.67, Val Acc:  77.05%, Time: 7 days, 21:13:50 
+Epoch: 199, Batch:  546000, Train Batch Loss:   0.64, Train Batch Acc:  77.00%, Val Loss:   0.68, Val Acc:  76.93%, Time: 7 days, 21:24:42 
+Epoch: 199, Batch:  546500, Train Batch Loss:   0.66, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.29%, Time: 7 days, 21:35:32 
+*** Epoch: 199, Train Loss:    0.7, Train Acc:  75.40%, Time: 7 days, 21:38:40
+Epoch: 200
+Epoch: 200, Batch:  547000, Train Batch Loss:   0.74, Train Batch Acc:  76.50%, Val Loss:   0.68, Val Acc:  77.01%, Time: 7 days, 21:46:21 
+Epoch: 200, Batch:  547500, Train Batch Loss:   0.68, Train Batch Acc:  75.50%, Val Loss:   0.67, Val Acc:  77.38%, Time: 7 days, 21:57:10 
+Epoch: 200, Batch:  548000, Train Batch Loss:    0.7, Train Batch Acc:  76.00%, Val Loss:   0.68, Val Acc:  76.83%, Time: 7 days, 22:07:59 
+Epoch: 200, Batch:  548500, Train Batch Loss:   0.64, Train Batch Acc:  80.00%, Val Loss:   0.67, Val Acc:  77.45%, Time: 7 days, 22:18:39 
+Epoch: 200, Batch:  549000, Train Batch Loss:   0.69, Train Batch Acc:  78.00%, Val Loss:   0.67, Val Acc:  77.05%, Time: 7 days, 22:29:16 
+No optimization for a long time, auto-stopping...
